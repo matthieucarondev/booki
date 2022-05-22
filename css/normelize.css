@@ -669,4 +669,8 @@ width: 120px;
   font-weight: bold;
   border-radius: 0 10px 10px 0;
 }
+.spam 
+{
+  color:#f2f2f2;
+}
 }
