@@ -607,66 +607,6 @@ text-decoration:none;
 }
 a
 {
-text-decoration: none;
-color: black;
-}
-}
-
-@media screen and (min-width:993px)  {
-  body
-
-   {
-    margin: 5px;
-  }
-
-/*HEADER*/
-
-.head-section
-{
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
- align-items: center;
- width: 100%;
-}
-#logo
-{
-  margin-left: 16px;
-   width:50%; 
-}
-.menu 
-{
-  font-size: larger;
-;/* espacement entre les mot*/
- margin: 0%;
- 
-}
-.menu ul 
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  padding: 4px;
-}
-ul li
-{
-  display: inline-block;
-}
-.menu a:hover 
-{/* barre  au dessu du lien  quand on survole */
-  color: #0065fc;
-  border-top: 2px solid #0065FC;
-  padding-top: 20px;
-  width: 100%;
-
-}
-a:link /* trait sous le lien retiré */
-{ 
-text-decoration:none;
-}
-a
-{
 padding: 4px;
 text-decoration: none;
 color: black;
@@ -675,7 +615,7 @@ width: 120px;
 /* filtre*/
 /*MAIN*/
 
-.titre
+.titre/* titre filtre*/
 {
   align-content: center;
   text-align: justify;
@@ -707,7 +647,7 @@ width: 120px;
   width: auto;
   align-self: center;
 }
-.recherche{
+.recherche{/* recherche */
   width: 100%;
   height: 50px;
 }
@@ -719,12 +659,12 @@ width: 120px;
   justify-content: flex-start;
 width: 80%;
 }
-.bouton .fa-magnifying-glass
+.bouton .fa-magnifying-glass/* icon loupe disparait */
 {
   display:none;
   width: 30%;
 }
-.bouton .spam
+.bouton .spam/* recherche white */
 {
   color: white;
 }
@@ -760,7 +700,7 @@ width: 80%;
   font-weight: bold;
   border-radius: 0 10px 10px 0;
 }
-.h2
+.h2 /* filtre */
 {
   display: flex;
   flex-direction: row;
@@ -808,7 +748,7 @@ border-radius: 100%;
 border: 1px solid #f2f2f2;
 padding: 10px;
 }
-.fa-info
+.fa-info /* bulle info*/
 {
 font-size: x-small;
 }
@@ -822,6 +762,224 @@ font-size: x-small;
   padding: 1%;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.info spam
+{
+  opacity: 0.8;
+  text-align: center;
+  font-size: small;
+  width: 80%;
+}
+}
+@media screen and (min-width:993px)  {
+  body
+
+   {
+    margin: 5px;
+  }
+
+/*HEADER*/
+
+.head-section
+{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ width: 100%;
+}
+#logo
+{
+  margin-left: 16px;
+   width:50%; 
+}
+.menu /* espacement entre les mot*/
+{
+  font-size: larger;
+ margin: 0%;
+ 
+}
+.menu ul 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding: 4px;
+}
+ul li
+{
+  display: inline-block;
+}
+.menu a:hover 
+{/* barre  au dessu du lien  quand on survole */
+  color: #0065fc;
+  border-top: 2px solid #0065FC;
+  padding-top: 20px;
+  width: 100%;
+
+}
+a:link /* trait sous le lien retiré */
+{ 
+text-decoration:none;
+}
+a
+{
+padding: 4px;
+text-decoration: none;
+color: black;
+width: 120px;
+}
+/* filtre*/
+/*MAIN*/
+
+.titre/* titre filtre*/
+{
+  align-content: center;
+  text-align: justify;
+ width:auto;
+}
+.titre BR 
+{
+  display: none;
+}
+.filtre+h1
+{
+  text-align: left;
+}
+.titre+p
+ {
+  opacity: 0.8;
+  text-align: left  ;
+  font-size: x-large;
+  width: 80%;
+}
+.filtre
+{
+  margin-left: 40px;
+  display: flexbox;
+  flex-direction: column;
+}
+.filtre:first-child
+{
+  width: auto;
+  align-self: center;
+}
+.recherche{/* recherche */
+  width: 100%;
+  height: 50px;
+}
+.formulaire 
+{
+  height: 50px;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+width: 80%;
+}
+.bouton .fa-magnifying-glass/* icon loupe disparait */
+{
+  display:none;
+  width: 30%;
+}
+.bouton .spam/* recherche white */
+{
+  color: white;
+}
+.icon
+{
+  width: 5%;
+  height: auto;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.champ
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #f2f2f2;
+    border-right: none;
+
+}
+.bouton
+{
+  width: 10%;
+  height:auto;
+  border: none;
+  background-color: #0065fc;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0 15px 15px 0;
+}
+.h2 /* filtre */
+{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 10px;
+}
+.filtres
+{
+width: 100%;
+  display: flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+}
+button 
+{
+  padding: 0%;
+}
+.filtres button
+{
+  width: auto;
+  display: flex;
+ flex-flow: row nowrap;
+ align-items: center;
+  border: none;
+  border-radius:  30px 30px  30px 30px;
+  background-color: white;
+  height: 40px ;
+  border: 2px solid #f2f2f2;
+  padding-bottom: 0% ;
+  margin:5px ;
+  padding-left:0% ;
+}
+.filtres button h3 
+{
+
+  width: 150px;
+  margin-left: 4PX;
+justify-items: flex-start;
+}
+.filtres i 
+{
+color: #0065fc;
+background-color:#f2f2f2;
+border-radius: 100%;
+border: 1px solid #f2f2f2;
+padding: 10px;
+}
+.fa-info /* bulle info*/
+{
+font-size: x-small;
+}
+.info i
+{
+
+  color: #0065fc;
+  background-color:white;
+  border-radius:  100%;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .info spam
 {
