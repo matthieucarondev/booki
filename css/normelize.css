@@ -351,6 +351,10 @@ template {
   src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
   src: url('raleway/Raleway-VariableFont_wght.ttf') format('truetype');
 }
+i 
+{
+  font-family: fontawesome;
+}
 @media all and (max-width: 767px) {/* version smartphone*/
 
   body{
@@ -989,23 +993,23 @@ font-size: x-small;
   width: 80%;
 }
 /* article*/
-.cont-article
+.cont-article/*SECTION en colone article et footer */
 {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#hébergement
+#hébergement /* hébergement et les populaire row*/
 {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
 }
-.article-list
+.article-list /* mise en forme liste article*/
 {
   display:flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   background-color: #f2f2f2;
   border-radius: 25px;
   padding: 15px 10px;
@@ -1018,37 +1022,56 @@ font-size: x-small;
   margin-left: 45px;
   font-size: 20px;
 }
-#link
+#link /* mise en forme "afficher plus"*/
 {
   margin-left: 45px;
 }
-.annonce
+.annonce /* disposition des annonce*/
 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   padding-top: 25px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
-.article
+.article /* mise en forme des annonce */
 {
-    width: 200px;
-    height: 150px;
+    width: 246px;
+    height: 199px;
     background-color: #ffffff;
     border: 5px solid #ffffff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
+    margin-left: 5px;
     margin-bottom: 20px;
     font-size:   10px;
     line-height: 3px;
 }
-.article1
+.article1 /* recouvrement de l'image*/
 {
   width: 100%;
-    height: 90px;
+    height: 110px;
     object-fit: cover;
+}
+.article h2,.article p /* mise en place texte*/
+{
+  font-size: 14px;
+  padding-top: 7px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.star .fa-solid
+{
+  color: #0065fc;
+}
+i 
+{
+  font-family: fontawesome;
+}
+.star .fa-duotone
+{
+ color: rgb(155, 149, 149);
 }
 }
 
