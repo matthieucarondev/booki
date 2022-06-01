@@ -1,314 +1,353 @@
+@media screen and (min-width: 993px) {
+                         HTML {
+                                                  width: auto;
+                                                  margin: 30px;
+                         }
+                         body {
+                                                  font-family: Raleway, Arial,
+                                                                           Helvetica,
+                                                                           sans-serif;
+                         }
 
+                         /*HEADER*/
 
-@media screen and (min-width:993px)  {
-   HTML 
-   {
-     width: auto;
-     margin: 30px;
-   }
-  body
-  
-     {
-       font-family: Raleway, Arial, Helvetica, sans-serif;
-    }
-  
-  /*HEADER*/
-  
-  .head-section
-  {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   width: 100%;
-  }
-  #logo
-  {
-    margin: 50px 0 40px 40px;
-     width:42%; 
-  }
-  .menu /* espacement entre les mot*/
-  {
-    font-size: larger;
-   margin: 0%;
-   width: 300px;
-  }
-  .menu ul 
-  {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 70px;
-    padding: 4px;
-    padding-right: 20px;
-    font-size: medium;
-  }
-  ul li
-  {
-    display: inline-block;
-   padding-right: 20px;
-  }
-  .menu a:hover 
-  {/* barre  au dessu du lien  quand on survole */
-    color: #0065fc;
-    border-top: 2px solid #0065FC;
-    padding-top: 45px;
-    width: 100%;
-  
-  }
-  a:link /* trait sous le lien retiré */
-  { 
-  text-decoration:none;
-  }
-  a
-  {
-  padding: 4px;
-  text-decoration: none;
-  color: black;
-  width: 120px;
-  }
-  /* filtre*/
-  /*MAIN*/
-  
+                         .head-section {
+                                                  height: 60px;
+                                                  display: flex;
+                                                  justify-content: space-between;
+                                                  align-items: center;
+                                                  width: 100%;
+                         }
+                         #logo {
+                                                  margin: 50px 0 40px 40px;
+                                                  width: 42%;
+                         }
+                         .menu /* espacement entre les mot*/ {
+                                                  font-size: larger;
+                                                  margin: 0%;
+                                                  width: 300px;
+                         }
+                         .menu ul {
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: flex-end;
+                                                  height: 70px;
+                                                  padding: 4px;
+                                                  padding-right: 20px;
+                                                  font-size: medium;
+                         }
+                         ul li {
+                                                  display: inline-block;
+                                                  padding-right: 50px;
+                         }
+                         .menu a:hover {
+                                                  /* barre  au dessu du lien  quand on survole */
+                                                  color: #0065fc;
+                                                  border-top: 2px solid #0065fc;
+                                                  padding-top: 45px;
+                                                  width: 100%;
+                         }
+                         a:link /* trait sous le lien retiré */ {
+                                                  text-decoration: none;
+                         }
+                         a {
+                                                  padding: 4px;
+                                                  text-decoration: none;
+                                                  color: black;
+                                                  width: 120px;
+                         }
+                         /* filtre*/
+                         /*MAIN*/
 
-  .filtre h1
-  {
-    text-align: left;
-    font-size:larger;
-    font-weight: bold;
-    margin-bottom: 0%;
-   
-  }
-  .filtre h2
-   {
-    opacity: 0.8;
-    text-align: left;
-    font-size:medium;
-    width: 80%;
-    font-weight: lighter;
-    margin-top: 0%;
-   
-  }
-  .filtre
-  {
-    margin-left: 40px;
-    display: flexbox;
-    flex-direction: column;
-  }
-  .filtre:first-child
-  {
-    width: auto;
-    align-self: center;
-  }
-  .recherche{/* recherche */
-    width: 100%;
-    height: 50px;
-  }
-  .formulaire 
-  {
-    height: 50px;
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-  width: auto;
-  }
-  .bouton .fa-magnifying-glass/* icon loupe disparait */
-  {
-    display:none;
-    width: 30%;
-  }
-  .bouton .spam/* recherche white */
-  {
-    color: white;
-  }
-  .icon
-  {
-    width: 50px;
-    height: auto;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 15px 0 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .champ
-  {
-      width: 200px;
-      height: auto;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      border: 1px solid #f2f2f2;
-      border-right: none;
-      font-weight: bolder;
-  
-  }
-  .bouton
-  {
-    width: 100px;
-    height:auto;
-    border: none;
-    background-color: #0065fc;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 0 15px 15px 0;
-  }
-  .filtres p  /* filtre */
-  {
-    font-weight: bolder;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-left: 10px;
-  }
-  .filtres
-  {
-  width: 100%;
-    display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  }
-  button 
-  {
-   
-  }
-  .filtres button 
-  {
-    width: 150px;
-    display: flex;
-   flex-flow: row nowrap;
-    align-items: center;
-    border: none;
-    background-color: white;
-   margin: 15PX;
-   border: 2px solid #ccc9c9;
-   border-radius:  0px 30px  30px 0px; 
-   height: 40px
-   
-  }
-  .filtres button P
-  {
-    width:auto;
-  justify-items: center;
- ;
-  
-  }
-  .filtres i 
-  {
-  position:relative;
-  right: 19px; ;
-  display: flex;
-  justify-content: center;
-  width: 15px;
-  height: 15PX;
-  color: #0065fc;
-  background-color:#bff0f7;
-  border-radius: 100%;
-  padding: 14PX 14PX 14PX 14PX ;
-  }
-  .fa-info /* bulle info*/
-  {
-  font-size: x-small;
-  }
-  .info i
-  {
-  
-    color: #0065fc;
-    background-color:white;
-    border-radius:  100%;
-    border: 1px solid #f2f2f2;
-    padding: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-  .info spam
-  {
-    opacity: 0.8;
-    text-align: center;
-    font-size: small;
-    width: 80%;
-  }
-  /* article*/
-  .cont-article/*SECTION en colone article et footer */
-  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #hébergement /* hébergement et les populaire row*/
-  {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-  }
-  .article-list /* mise en forme liste article*/
-  {
-    display:flex;
-    flex-flow: row wrap;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    padding: 15px 10px;
-    width: 60%;
-    margin-right: 25px;
-    margin-left: 20px;
-  }
-  .article-titre h1
-  {
-    margin-left: 45px;
-    font-size: 20px;
-  }
-  #link /* mise en forme "afficher plus"*/
-  {
-    margin-left: 45px;
-  }
-  .annonce /* disposition des annonce*/
-  {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-top: 25px;
-    justify-content: space-around;
-  }
-  .article /* mise en forme des annonce */
-  {
-      width: 397px;
-      height: 495px;
-      background-color: #ffffff;
-      border: 5px solid #ffffff;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-      margin-left: 5px;
-      margin-bottom: 20px;
-      font-size:   10px;
-      line-height: 3px;
-  }
-  .article1 /* recouvrement de l'image*/
-  {
-    width: 100%;
-      height: 345px;
-      object-fit: cover;
-  }
-  .article h2,.article p /* mise en place texte*/
-  {
-    font-size: 14px;
-    padding-top: 7px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-  }
-  .star .fa-solid
-  {
-    color: #0065fc;
-  }
-  i 
-  {
-    font-family: fontawesome;
-  }
-  .star .fa-duotone
-  {
-   color: rgb(155, 149, 149);
-  }
-  }
+                         .filtre h1 {
+                                                  text-align: left;
+                                                  font-size: larger;
+                                                  font-weight: bold;
+                                                  margin-bottom: 10px;
+                         }
+                         .filtre h2 {
+                                                  opacity: 0.8;
+                                                  text-align: left;
+                                                  font-size: medium;
+                                                  width: 80%;
+                                                  font-weight: lighter;
+                                                  margin-top: 0%;
+                         }
+                         .filtre {
+                                                  margin-left: 40px;
+
+                                                  display: flexbox;
+                                                  flex-direction: column;
+                         }
+                         .filtre:first-child {
+                                                  width: auto;
+                                                  align-self: center;
+                         }
+                         .recherche {
+                                                  /* recherche */
+                                                  width: 100%;
+                                                  height: 50px;
+                                                  margin-top: 20px;
+                         }
+                         .formulaire {
+                                                  height: 50px;
+                                                  display: flex;
+                                                  flex-direction: row;
+                                                  justify-content: flex-start;
+                                                  width: auto;
+                         }
+                         .bouton i /* icon loupe disparait */ {
+                                                  display: none;
+                                                  width: 30%;
+                         }
+                         .icon {
+                                                  width: 50px;
+                                                  height: auto;
+                                                  background-color: #f2f2f2;
+                                                  border: 1px solid #f2f2f2;
+                                                  border-radius: 15px 0 0 15px;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
+                         }
+                         .champ {
+                                                  width: 200px;
+                                                  height: auto;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: flex-start;
+                                                  border: 1px solid #f2f2f2;
+                                                  border-right: none;
+                                                  font-weight: bolder;
+                         }
+                         .bouton {
+                                                  display: flex;
+                                                  align-items: center;
+                                                  width: 120px;
+                                                  height: auto;
+                                                  border: none;
+                                                  background-color: #0065fc;
+                                                  color: #ffffff;
+                                                  font-weight: bold;
+                                                  border-radius: 0 15px 15px 0;
+                         }
+                         .filtres p  /* filtre */ {
+                                                  font-weight: bolder;
+                                                  display: flex;
+                                                  flex-direction: row;
+                                                  margin-left: 10px;
+                                                  width: 72px;
+                         }
+                         .filtres {
+                                                  margin: 20px 0 0 15px;
+                                                  font-weight: bolder;
+                                                  width: AUTO;
+                                                  display: flex;
+                                                  flex-flow: row nowrap;
+                                                  justify-content: flex-start;
+                                                  align-items: center;
+                         }
+                         .filtres button {
+                                                  width: AUTO;
+                                                  display: flex;
+                                                  flex-flow: row nowrap;
+                                                  align-items: center;
+                                                  border: none;
+                                                  background-color: white;
+                                                  padding: 0 0 0 15px;
+                                                  margin: 15px 0px 15px 30px;
+                                                  border: 2px solid #ccc9c9;
+                                                  border-radius: 0px 30px 30px
+                                                                           0px;
+                                                  height: 44px;
+                         }
+                         .bouton a {
+                                                  color: white;
+                         }
+                         .filtres button P {
+                                                  position: relative;
+                                                  right: 25px;
+                                                  width: auto;
+                                                  display: flex;
+                                                  align-items: center;
+                         }
+                         .filtres i {
+                                                  position: relative;
+                                                  right: 35px;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  width: 15px;
+                                                  height: 15px;
+                                                  color: #0065fc;
+                                                  background-color: #bff0f7;
+                                                  border-radius: 100%;
+                                                  padding: 14px 14px 14px 14px;
+                         }
+                         .info {
+                                                  display: flex;
+                                                  align-items: center;
+                         }
+                         .fa-info /* bulle info*/ {
+                                                  font-size: x-small;
+                         }
+                         .info i {
+                                                  color: #065de0ad;
+                                                  background-color: white;
+                                                  border-radius: 100%;
+                                                  border: 1px solid #f2f2f2;
+                                                  padding: 4px 8px 6px 9px;
+                                                  margin-right: 10px;
+                         }
+                         .info p {
+                                                  opacity: 0.8;
+                                                  font-size: small;
+                                                  width: 80%;
+                         }
+                         /* article*/
+                         .cont-article/*SECTION en colone article et footer */ {
+                                                  width: auto;
+                                                  display: flex;
+                                                  flex-direction: column;
+                                                  justify-content: center;
+                         }
+                         .cont-article .Article-list {
+                          display: flex;
+                          flex-direction: row;
+                        }
+                       
+                        
+                         #hebergement/* hébergement */ {
+                                                  
+                                                  margin: 0 auto;
+                                                  background-color: #f2f2f2;
+                                                  border-radius: 25px;
+                                                  padding: 0px 10px;
+                                                  margin: 5px 25px 0 20px;
+                                                  height: auto;
+                                                  width: 100%;
+                         }
+                         .article-titre P {
+                                                  font-weight: bold;
+                                                  margin-left: 45px;
+                                                  font-size: 20px;
+                         } 
+                         .annonce 
+                        {
+                          display: flex;
+                          flex-wrap: wrap;
+                        }
+                         .article {
+                                                  width: 215px;
+                                                  height: 170px;
+                                                  background-color: #ffffff;
+                                                  border: 3px solid #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba( 0, 0,  0, 0.1) ;
+                         }
+
+                         .article .photo /* recouvrement de l'image*/ {
+                                                  width: 216px;
+                                                  height: 90px;
+                                                  object-fit: cover;
+                                                  margin: 0%;
+                                                  border-radius: 15px  15PX  0 0 ;
+                         }
+
+                         .article dd  /* mise en place texte*/ {
+                                                  margin-left: 2px;
+                         }
+
+                         .star .fa-solid {
+                                                  color: #0065fc;
+                         }
+                         i {
+                                                  font-family: fontawesome;
+                         }
+                         .star .fa-duotone {
+                                                  color: rgb(155, 149, 149);
+                         }
+                         .populaire {
+                                                  background-color: #f2f2f2;
+                                                  padding: 0px 5px;
+                                                  width: 360px;
+                                                  border-radius: 15px;
+                         }
+                         .pop {
+                                                  font-size: smaller;
+                                                  width: 340px;
+                                                  height: 135px;
+                                                  background-color: #ffffff;
+                                                  border: 4px solid #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px rgba
+                                                                           (
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                                                  margin-left: 4px;
+                                                  margin-bottom: 20px;
+                                                  align-content: center;
+                         }
+                         .pop a {
+                                                  position: relative;
+                                                  top: -6px;
+                         }
+                         .annonce-populaire {
+                                                  display: flex;
+                                                  flex-wrap: wrap;
+                                                  width: 385px;
+                                                  padding-left: 0px;
+                         }
+                         .titre-populaire {
+                                                  font-size: 20px;
+                                                  font-weight: bolder;
+                                                  margin-top: 27px;
+                         }
+
+                         .titre-populaire i {
+                                                  float: right;
+                         }
+                         .photo {
+                                                  width: 130px;
+                                                  height: 139px;
+                                                  object-fit: cover;
+                                                  float: left;
+                                                  margin-right: 10px;
+                         }
+                         .descr {
+                                                  position: relative;
+                                                  top: -21px;
+                                                  font-size: x-small;
+                                                  display: flex;
+                                                  flex-direction: column;
+                                                  padding: 0px;
+                                                  height: 96px;
+                         }
+                         .descr h3 {
+                                                  margin-bottom: 3px;
+                                                  font-weight: bold;
+                                                  font-size: large;
+                         }
+                         .descr p {
+                                                  margin-top: 3px;
+                                                  margin-bottom: 35px;
+                         }
+                         .lodging-price {
+                                                  font-weight: bolder;
+                         }
+                         .pop Div {
+                                                  display: inline;
+                                                  margin-bottom: 0px;
+                         }
+                         .star-on {
+                                                  color: #0065fc;
+                         }
+                         .star-off {
+                                                  color: #a0a1a1;
+                         }
+}
