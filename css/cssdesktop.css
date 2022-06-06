@@ -58,11 +58,10 @@
                          .filtre h1 {
                                                   text-align: left;
                                                   font-size: 20px;
-                                                  font-weight:800;
+                                                  font-weight: 800;
                                                   margin-bottom: 10px;
                          }
                          .filtre h2 {
-                                                  
                                                   text-align: left;
                                                   font-size: medium;
                                                   width: 80%;
@@ -219,13 +218,12 @@
                                                   font-size: x-small;
                          }
                          .info i {
-                                                  color:#0065fc;
+                                                  color: #0065fc;
                                                   background-color: white;
                                                   border-radius: 100%;
                                                   border: 1px solid #a09e9e;
                                                   padding: 12px 9px 12px 9px;
                                                   margin-right: 10px;
-                                                  
                          }
                          .info p {
                                                   opacity: 0.8;
@@ -242,7 +240,6 @@
                                                   display: flex;
                                                   flex-direction: row;
                          }
-                         
 
                          #hebergement/* hébergement */ {
                                                   margin: 0 auto;
@@ -251,90 +248,84 @@
                                                   padding: 0px 10px;
                                                   margin: 5px 25px 0 20px;
                          }
-                         #hebergement>p {
+                         #hebergement > p {
                                                   font-weight: 800;
                                                   margin-left: 45px;
                                                   font-size: 20px;
                          }
-                   
+
                          .annonce {
                                                   list-style-type: none;
                                                   display: flex;
                                                   flex-wrap: wrap;
                                                   justify-content: center;
                          }
-                        
-                         .article
-                         {
-                           width: 250px;
-                           height: 200px;
-                           background-color: #ffffff;
-                           border: 5px solid #ffffff;
-                           border-radius: 15px;
-                           overflow: hidden;
-                           box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-                           margin-left: 10px;
-                           margin-bottom: 20px;
-                          
-                         
-                                                                           
-                         } 
-                          figure 
-                         {
-                           width: 260px;
-                           height: 150px;
-                            margin: 2px;
-                        
-                         } 
-                         .article-heberg .article-photo
-                         {
-                           width: 100%;
-                           height: 45%;
-                         }
-                         .article-heberg figure 
-                         {
-                          width: 260px;
-                          height: 250px;
-                           margin: 2px;
-                         }
-                         .article-heberg figcaption 
-                         {
-                           display: flex;
-                           flex-direction: column;
-                           margin-bottom: 0px;
-                          box-sizing: border-box;
-                           
 
+                         .article {
+                                                  width: 250px;
+                                                  height: 200px;
+                                                  background-color: #ffffff;
+                                                  border: 5px solid #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                                                  margin-left: 10px;
+                                                  margin-bottom: 20px;
                          }
-                       
-                         .article a { 
-                           color: #333; 
-                           text-decoration: none;
+                         figure {
+                                                  width: 260px;
+                                                  height: 150px;
+                                                  margin: 2px;
                          }
-                         .article:hover .article-photo img { /*6*/
-                           width: 250px;
-                           filter: grayscale(0);
+                         .article-heberg .article-photo {
+                                                  width: 100%;
+                                                  height: 45%;
                          }
-                   
+                         .article-heberg figure {
+                                                  width: 260px;
+                                                  height: 250px;
+                                                  margin: 2px;
+                         }
+                         .article-heberg figcaption {
+                                                  display: flex;
+                                                  flex-direction: column;
+                                                  margin-bottom: 0px;
+                                                  box-sizing: border-box;
+                         }
+
+                         .article a {
+                                                  color: #333;
+                                                  text-decoration: none;
+                         }
+                         .article:hover .article-photo img {
+                                                  /*6*/
+                                                  width: 250px;
+                                                  filter: grayscale(0);
+                         }
+
                          .article-photo img {
-                           width: 264px;
-                           height: 127px;
-                           object-fit: cover;
-                           float: top;
-                           position: relative;
-                           bottom: 10px;
+                                                  width: 264px;
+                                                  height: 127px;
+                                                  object-fit: cover;
+                                                  float: top;
+                                                  position: relative;
+                                                  bottom: 10px;
                          }
-                       .article-heberg  figcaption>h3 
-                       {
-                          font-size: 16px;
-                          font-weight: 800;
-                          margin:  10px 0 0px 0;
-                           }
-                          .article-heberg  figcaption>p 
-                          {
-                            font-size: small;
-                            margin: 12px 0 12px 0;
-                          }
+                         .article-heberg figcaption > h3 {
+                                                  font-size: 16px;
+                                                  font-weight: 800;
+                                                  margin: 10px 0 0px 0;
+                         }
+                         .article-heberg figcaption > p {
+                                                  font-size: small;
+                                                  margin: 12px 0 12px 0;
+                         }
 
                          .article figcaption  /* mise en place texte*/ {
                                                   margin-left: 8px;
@@ -343,19 +334,16 @@
                          .star-on {
                                                   color: #0065fc;
                          }
-                         
 
                          .star-off {
                                                   color: rgb(155, 149, 149);
-                         }      
-                         #link
-                         {
-                           margin: 0px 0px 0px 55px;
-                           font-weight: 800;
-                           text-decoration: none;
-                           color: black;
-                           font-size: 18px;
-
+                         }
+                         #link {
+                                                  margin: 0px 0px 0px 55px;
+                                                  font-weight: 800;
+                                                  text-decoration: none;
+                                                  color: black;
+                                                  font-size: 18px;
                          }
                          .les-populaires > p {
                                                   font-weight: bold;
@@ -363,7 +351,8 @@
                                                   font-size: 20px;
                          }
                          .les-populaires i {
-                                                  float: right;}
+                                                  float: right;
+                         }
                          .les-populaires {
                                                   background-color: #f2f2f2;
                                                   padding: 0px 5px;
@@ -377,7 +366,7 @@
                                                   background-color: #ffffff;
                                                   border: 2px solid #ffffff;
                                                   border-radius: 15px;
-                                                 object-fit: cover;
+                                                  object-fit: cover;
                                                   box-shadow: 5px 5px 20px rgba
                                                                            (
                                                                                                     0,
@@ -388,13 +377,13 @@
                                                   margin: 0 38px 30px 0px;
                                                   align-content: center;
                          }
-                         .article-populaire:hover .article-photo img { /*6*/
-                           width: 350px;
-                           filter: grayscale(0);
+                         .article-populaire:hover .article-photo img {
+                                                  /*6*/
+                                                  width: 350px;
+                                                  filter: grayscale(0);
                          }
                          .article-populaire a {
                                                   position: relative;
-                                                
                          }
                          .annonce-populaire {
                                                   display: flex;
@@ -408,43 +397,39 @@
                                                   margin-top: 27px;
                          }
 
-                         .titre-populaire>i {
+                         .titre-populaire > i {
                                                   float: right;
                          }
-                         .article-populaire .article-photo img{
+                         .article-populaire .article-photo img {
                                                   width: 130px;
                                                   height: 152px;
                                                   object-fit: cover;
                                                   float: left;
                                                   margin-right: 10px;
                          }
-                         .article-populaire figure 
-                         {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            justify-items: flex-start;
-                    
-                            width: 100%;
+                         .article-populaire figure {
+                                                  display: flex;
+                                                  flex-direction: row;
+                                                  align-items: center;
+                                                  justify-items: flex-start;
+
+                                                  width: 100%;
                          }
-                         .article-populaire figcaption  {
-                                                 
+                         .article-populaire figcaption {
                                                   font-size: small;
                                                   width: 100%;
-                                                 display: flex;
-                                                 flex-flow: column wrap;
-                                                  height:100%;
+                                                  display: flex;
+                                                  flex-flow: column wrap;
+                                                  height: 100%;
                          }
-                         .article-populaire figcaption  h3 {
-                                                  
+                         .article-populaire figcaption h3 {
                                                   font-weight: 800;
                                                   font-size: 16px;
                                                   margin: 18px 0 0px 0;
                                                   width: 100%;
                                                   height: 31px;
                          }
-                         .article-populaire figcaption  p {
-                                                  
+                         .article-populaire figcaption p {
                                                   margin-bottom: 35px;
                                                   font-weight: 500;
                          }
@@ -455,9 +440,7 @@
                                                   display: inline;
                                                   margin-bottom: 0px;
                          }
-                         .article-populaire figcaption .star
-                         {
-                           display: flex;
+                         .article-populaire figcaption .star {
+                                                  display: flex;
                          }
-                       
 }
