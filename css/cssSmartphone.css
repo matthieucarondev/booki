@@ -2,63 +2,71 @@
                          /* version smartphone*/
 
                          body {
-                                                  font-family: Raleway, Arial,
-                                                                           Helvetica,
-                                                                           sans-serif;
-                                                  width: auto;
+                                                  font-family: Raleway;
+                                                  width: 100%;
                          }
-                         .logo {
+
+                         .logo/*HEADER*/ {
                                                   display: flex;
                                                   justify-content: center;
                          }
-                         #logo/*HEADER*/ {
-                                                  width: 50%;
-                                                  display: flex;
-                                                  justify-content: center;
+                         #logo {
+                                                  width: 35%;
+                                                  margin: 35px;
                          }
                          .head-section {
                                                   display: flex;
                                                   flex-direction: column;
                                                   align-items: center;
                                                   justify-content: center;
+                                                  width: 100%;
                          }
-                         .menu ul {
-                                                  list-style-type: none;
+                         .menu {
+                                                  width: 100%;
                                                   display: flex;
+                                                  flex-direction: row;
+                                                  justify-content: center;
+                                                  height: 100%;
                                                   align-items: center;
-                                                  justify-content: flex-end;
-                                                  height: 35px;
-                                                  padding: 4px;
-                                                  padding-right: 20px;
-                                                  font-size: medium;
+                         }
+                         .bordure-nav:hover {
+                                                  border-bottom: 3px solid
+                                                                           #0065fc;
+                                                  text-decoration-style: none;
+                                                  color: #0065fc;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  padding-bottom: 20px;
+                         }
+                         .bordure-nav {
+                                                  margin: 10px 0 10px 0;
+                                                  height: 100%;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                                                  padding-bottom: 20px;
                                                   border-bottom: 2px solid
                                                                            #f2f2f2;
-                         }
-
-                         .menu li :hover {
-                                                  /* barre  au dessou du lien  quand on survole */
-                                                  color: #0065fc;
-                                                  border-bottom: 4px solid
-                                                                           #0065fc;
-                                                  padding-bottom: 15px;
-                                                  width: 50%;
                          }
                          a:link /* trait sous le lien retiré */ {
                                                   text-decoration: none;
                          }
-                         a {
-                                                  padding-right: 70px;
-                                                  padding-bottom: 10px;
-                                                  padding-left: 80px;
-                                                  color: black;
+                         .menu > a {
                                                   text-decoration: none;
+                                                  color: black;
+                                                  width: 50%;
+                                                  display: flex;
+                                                  justify-content: center;
                          }
+                         /* filtre*/
+                         /*MAIN*/
+
                          .filtre h1 {
                                                   text-align: left;
-                                                  font-size: larger;
-                                                  font-weight: bold;
-                                                  margin-bottom: 10px;
-                                                  margin-left: 40px;
+                                                  font-size: x-large;
+                                                  font-weight: 900;
+                                                  margin: 10px 50px 10px 40px;
                          }
                          .filtre h2 {
                                                   margin-left: 40px;
@@ -69,13 +77,13 @@
                                                   font-weight: lighter;
                                                   margin-top: 0%;
                          }
+
                          .filtre {
-                                                  display: flexbox;
+                                                  display: flex;
                                                   flex-direction: column;
                          }
-                         .filtre:first-child {
-                                                  width: auto;
-                                                  align-self: center;
+                         .filtre:first-child:first-child {
+                                                  width: 100%;
                          }
                          .recherche {
                                                   /* recherche */
@@ -114,53 +122,79 @@
                                                   border-right: none;
                                                   font-weight: bolder;
                          }
-                         .bouton {
+                         .btn {
                                                   display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
                                                   width: 60px;
                                                   height: auto;
                                                   border: none;
                                                   background-color: #0065fc;
-                                                  color: #ffffff;
-                                                  font-weight: bold;
                                                   border-radius: 15px 15px 15px
                                                                            15px;
+                                                  color: white;
                          }
-                         .bouton i {
-                                                  color: WHITE;
-                                                  display: flex;
-                                                  align-items: center;
-                                                  position: relative;
-                                                  right: 104px;
-                                                  bottom: 3px;
+                         .btn:hover {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 60px;
+                            height: auto;
+                            border:2px solid #0065fc;
+                            background-color: #fdfdfd;
+                            border-radius: 15px 15px 15px
+                                                     15px;
+                            color:#0065fc;
+                            box-shadow: 10px 5px 5px #0065fc;
+   }
+                         .btn p {
+                                                  display: none;
                          }
 
-                         
+                         .btn i {
+                                                  width: 60px;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
+                         }
+
                          .filtres {
                                                   margin-top: 20px;
-                                                  width: AUTO;
-                                                  align-items: center;
-                                                  padding-left: 15px;
-                                                  font-weight: bold;
-                         }
-                         .filtres button {
+                                                  width: 100%;
                                                   display: flex;
+                                                  flex-wrap: wrap;
+                                                  flex-direction: row;
+                                                  align-items: center;
+                                                  margin-left: 40px;
+                                                  height: 40%;
+                         }
+                         .filtres h4 {
+                                                  width: 100%;
+                                                  font-weight: 1000;
+                                                  margin-left: 20px;
+                         }
+                         .btn-filtre {
+                                                  width: auto;
+                                                  display: flex;
+                                                  flex-direction: row;
                                                   flex-wrap: wrap;
                                                   align-content: center;
                                                   border: none;
                                                   background-color: white;
-                                                  margin: 15px;
+                                                  margin: 10px 44px 10px 36px;
                                                   border: 2px solid #ccc9c9;
                                                   border-radius: 0px 30px 30px
                                                                            0px;
-                                                  height: 44px;
-                                                  font-weight: bold;
+                                                                           height: 44px;
+                                                 
                          }
                          .filtres button P {
                                                   position: relative;
-                                                  right: 25px;
+                                                  right: 16px;
                                                   bottom: 0px;
                                                   width: auto;
                                                   display: flex;
+                                                  font-weight: 600;
                          }
                          .filtres i {
                                                   position: relative;
@@ -171,14 +205,28 @@
                                                   width: 15px;
                                                   height: 15px;
                                                   color: #0065fc;
-                                                  background-color: #bff0f7;
+                                                  background-color: #90dafd;
                                                   border-radius: 100%;
                                                   padding: 14px 14px 14px 14px;
+                         }
+                         .filtres i:hover {
+                                                  position: relative;
+                                                  right: 35px;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  width: 15px;
+                                                  height: 15px;
+                                                  color: #bff0f7;
+                                                  background-color: #0065fc;
+                                                  border-radius: 100%;
+                                                  padding: 14px 14px 14px 14px;
+                                                  cursor: pointer;
                          }
                          .info {
                                                   margin-left: 10px;
                                                   display: flex;
-                                                  align-items: center;
+                                                  align-items: baseline;
+                                                  width: 100%;
                          }
                          .fa-info /* bulle info*/ {
                                                   font-size: x-small;
@@ -187,13 +235,13 @@
                                                   color: #065de0ad;
                                                   background-color: white;
                                                   border-radius: 100%;
-                                                  border: 1px solid #f2f2f2;
+                                                  border: 1px solid #a09e9e;
                                                   padding: 4px 8px 6px 9px;
                                                   margin-right: 10px;
                          }
                          .info p {
-                                                  opacity: 0.8;
-                                                  font-size: small;
+                                                  font-weight: 400;
+                                                  font-size: 16px;
                                                   width: 80%;
                          }
                          .cont-article .Article-list {
@@ -259,7 +307,6 @@
                                                   flex-direction: column;
                                                   padding: 0px;
                                                   height: 96px;
-                                                  
                          }
                          .descr h3 {
                                                   margin-bottom: 3px;

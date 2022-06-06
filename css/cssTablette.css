@@ -1,233 +1,234 @@
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    /*version tablette*/
-   body 
-  {
-    font-family: Raleway, Arial, Helvetica, sans-serif;
-  }
-  .head-section
-  {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   width: 100%;
-  }
-  #logo
-  {
-    margin: 50px 0 40px 40px;
-     width:42%; 
-  }
-  .menu /* espacement entre les mot*/
-  {
-    font-size: larger;
-   margin: 0%;
-   width: 300px;
-  }
-  .menu ul 
-  {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 70px;
-    padding: 4px;
-    padding-right: 20px;
-    font-size: medium;
-  }
-  ul li
-  {
-    display: inline-block;
-   padding-right: 50px;
-  }
-  .menu a:hover 
-  {/* barre  au dessu du lien  quand on survole */
-    color: #0065fc;
-    border-top: 2px solid #0065FC;
-    padding-top: 45px;
-    width: 100%;
-  
-  }
-  a:link /* trait sous le lien retiré */
-  { 
-  text-decoration:none;
-  }
-  a
-  {
-  padding: 4px;
-  text-decoration: none;
-  color: black;
-  width: 120px;
-  }
-  /* filtre*/
-  /*MAIN*/
-  
+                         /*version tablette*/
+                         html body {
+                                                  font-family: raleway;
+                         }
+                         HTML {
+                                                  width: auto;
+                                                  margin: 0 30px 30px 30px;
+                         }
 
-  .filtre h1
-  {
-    text-align: left;
-    font-size:larger;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .filtre h2
-   {
-    opacity: 0.8;
-    text-align: left;
-    font-size:medium;
-    width: 80%;
-    font-weight: lighter;
-    margin-top: 0%;
-   
-  }
-  .filtre
-  {
-    margin-left: 40px;
-    display: flexbox;
-    flex-direction: column;
-  }
-  .filtre:first-child
-  {
-    width: auto;
-    align-self: center;
-  }
-  .recherche{/* recherche */
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-  }
-  .formulaire 
-  {
-    height: 50px;
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-  width: auto;
-  }
-  .bouton i /* icon loupe disparait */
-  {
-    display:none;
+                         /*HEADER*/
 
-  }
-  .icon
-  {
-    width: 50px;
-    height: auto;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 15px 0 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .champ
-  {
-      width: 200px;
-      height: auto;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      border: 1px solid #f2f2f2;
-      border-right: none;
-      font-weight: bolder;
-  
-  }
-  .bouton
-  {
-    display: flex;
-    align-items: center;
-    width: 120px;
-    height:auto;
-    border: none;
-    background-color: #0065fc;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 0 15px 15px 0;
-  }
-  .filtres p  /* filtre */
-  {
-    font-weight: bolder;
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    width: 72PX;
-  }
-  .filtres
-  {
-  margin-top: 20px;    
-  width: AUTO;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  }
-  .filtres button 
-  {
-    width: AUTO;
-    display: flex;
-   flex-flow: row nowrap;
-    align-items: center;
-    border: none;
-    background-color: white;
-   margin: 15PX;
-   border: 2px solid #ccc9c9;
-   border-radius:  0px 30px  30px 0px; 
-   height: 44px
-  }
-  .bouton a
-  {
-    color: white;
-  }
-  .filtres button P
-  {
-    position: relative;
-   right: 25px;
-    width:auto;
-    display: flex;
-    align-items: center;
-  }
-  .filtres i 
-  {
-  position:relative;
-  right: 26px; ;
-  display: flex;
-  justify-content: center;
-  width: 15px;
-  height: 15PX;
-  color: #0065fc;
-  background-color:#bff0f7;
-  border-radius: 100%;
-  padding: 14PX 14PX 14PX 14PX ;
-  }
-  .info
-  {
-    display: flex;
-    align-items: center;
-  }
-  .fa-info /* bulle info*/
-  {
-  font-size: x-small;
-  }
-  .info i
-  {
-    color: #065de0ad;
-    background-color: white;
-    border-radius:  100%;
-    border: 1px solid #f2f2f2;
-    padding: 4px 8px 6px 9px;
-    margin-right: 10px;
-  }  
-  .info p
-  {
-    opacity: 0.8;
-    font-size: small;
-    width: 80%;
-  }
-  .cont-article
-  {
-    display: flex;
-    flex-direction: column;
-  }
-  }
-  
-  
-  
+                         .head-section {
+                                                  height: 100px;
+                                                  display: flex;
+                                                  justify-content: space-between;
+                                                  align-items: center;
+                                                  width: 100%;
+                         }
+                         #logo {
+                                                  margin: 50px 0 40px 60px;
+                                                  width: 42%;
+                         }
+
+                         .menu {
+                                                  width: 30%;
+                                                  display: flex;
+                                                  justify-content: flex-end;
+                                                  height: 100%;
+                                                  align-items: center;
+                         }
+                         .bordure-nav:hover {
+                                                  border-top: 3px solid #0065fc;
+                                                  text-decoration-style: none;
+                                                  color: #0065fc;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                         }
+                         .bordure-nav {
+                                                  height: 100%;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  align-items: center;
+                         }
+                         a:link /* trait sous le lien retiré */ {
+                                                  text-decoration: none;
+                         }
+                         .menu > a {
+                                                  text-decoration: none;
+                                                  color: black;
+                                                  width: 160px;
+                                                  display: flex;
+                                                  justify-content: center;
+                         }
+                         /* filtre*/
+                         /*MAIN*/
+
+                         .filtre h1 {
+                                                  text-align: left;
+                                                  font-size: larger;
+                                                  font-weight: bold;
+                                                  margin-bottom: 10px;
+                         }
+                         .filtre h2 {
+                                                  opacity: 0.8;
+                                                  text-align: left;
+                                                  font-size: medium;
+                                                  width: 80%;
+                                                  font-weight: lighter;
+                                                  margin-top: 0%;
+                         }
+                         .filtre {
+                                                  margin-left: 40px;
+
+                                                  display: flexbox;
+                                                  flex-direction: column;
+                         }
+                         .filtre:first-child {
+                                                  width: auto;
+                                                  align-self: center;
+                         }
+                         .recherche {
+                                                  /* recherche */
+                                                  width: 100%;
+                                                  height: 50px;
+                                                  margin-top: 20px;
+                         }
+                         .formulaire {
+                                                  height: 50px;
+                                                  display: flex;
+                                                  flex-direction: row;
+                                                  justify-content: flex-start;
+                                                  width: auto;
+                         }
+                         .fa-magnifying-glass /* icon loupe disparait */ {
+                                                  display: none;
+                                                  width: 30%;
+                         }
+                         .icon {
+                                                  width: 50px;
+                                                  height: auto;
+                                                  background-color: #f2f2f2;
+                                                  border: 1px solid #f2f2f2;
+                                                  border-radius: 15px 0 0 15px;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: center;
+                         }
+                         .champ {
+                                                  width: 200px;
+                                                  height: auto;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-content: flex-start;
+                                                  border: 1px solid #f2f2f2;
+                                                  border-right: none;
+                                                  font-weight: 900;
+                         }
+                         .btn {
+                                                  font-weight: bold;
+                                                  height: 50px;
+                                                  width: 120px;
+                                                  background-color: #0065fc;
+                                                  color: white;
+                                                  border: none;
+                                                  cursor: pointer;
+                                                  border-radius: 0 10px 10px 0;
+                         }
+
+                         .btn:hover {
+                                                  font-weight: bold;
+                                                  height: 50px;
+                                                  width: 120px;
+                                                  background-color: white;
+                                                  color: #0065fc;
+                                                  border: 2px solid #0065fc;
+                                                  cursor: pointer;
+                                                  border-radius: 0 10px 10px 0;
+                                                  box-shadow: 10px 5px 5px
+                                                                           #0065fc;
+                         }
+
+                         .btn i {
+                                                  display: none;
+                         }
+
+                         .filtres  /* filtre */ {
+                                                  font-weight: 900;
+                                                  display: flex;
+                                                  flex-direction: row;
+                                                  margin-left: 10px;
+                                                  width: 72px;
+                         }
+                         .filtres {
+                                                  margin: 20px 0 0 15px;
+                                                  font-weight: 800;
+                                                  width: AUTO;
+                                                  display: flex;
+                                                  flex-flow: row wrap;
+                                                  justify-content: flex-start;
+                                                  align-items: center;
+                         }
+                         .filtres button {
+                                                  width: AUTO;
+                                                  display: flex;
+                                                  flex-flow: row nowrap;
+                                                  align-items: center;
+                                                  border: none;
+                                                  background-color: white;
+                                                  padding: 0 0 0 15px;
+                                                  margin: 15px 0px 15px 30px;
+                                                  border: 2px solid #ccc9c9;
+                                                  border-radius: 0px 30px 30px
+                                                                           0px;
+                                                  height: 44px;
+                         }
+                         .bouton a {
+                                                  color: white;
+                         }
+                         .filtres button P {
+                                                  position: relative;
+                                                  right: 16px;
+                                                  bottom: 0px;
+                                                  width: auto;
+                                                  display: flex;
+                                                  align-items: center;
+                                                  font-weight:600;
+                         }
+                         .filtres i {
+                                                  position: relative;
+                                                  right: 35px;
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  width: 15px;
+                                                  height: 15px;
+                                                  color: #0065fc;
+                                                  background-color: #bff0f7;
+                                                  border-radius: 100%;
+                                                  padding: 14px 14px 14px 14px;
+                                                  cursor: pointer;
+                         }
+                         .filtres i:hover {
+                                                  display: flex;
+                                                  justify-content: center;
+                                                  width: 15px;
+                                                  height: 15px;
+                                                  color: #bff0f7;
+                                                  background-color: #0065fc;
+                                                  border-radius: 100%;
+                                                  padding: 14px 14px 14px 14px;
+                                                  cursor: pointer;
+                         }
+                         .info {
+                                                  display: flex;
+                                                  align-items: center;
+                         }
+                         .fa-info /* bulle info*/ {
+                                                  font-size: x-small;
+                         }
+                         .info i {
+                                                  color: #065de0ad;
+                                                  background-color: white;
+                                                  border-radius: 100%;
+                                                  border: 1px solid #a09e9e;
+                                                  padding: 4px 8px 6px 9px;
+                                                  margin-right: 10px;
+                         }
+                         .info p {
+                                                  opacity: 0.8;
+                                                  font-size: small;
+                                                  width: 80%;
+                         }
+}
