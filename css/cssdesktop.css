@@ -6,6 +6,10 @@
                                                   width: auto;
                                                   margin: 0 30px 30px 30px;
                          }
+                         body 
+                         {
+                             overflow-x: hidden;
+                         }
 
                          /*HEADER*/
 

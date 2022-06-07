@@ -1,9 +1,13 @@
 @media all and (max-width: 767px) {
                          /* version smartphone*/
+                         html {
+                                                  padding: 5px;
+                         }
 
                          body {
                                                   font-family: Raleway;
                                                   width: 100%;
+                                                  overflow-x: hidden;
                          }
 
                          .logo/*HEADER*/ {
@@ -160,13 +164,13 @@
                          }
 
                          .filtres {
-                                                  margin-top: 20px;
+                                                  margin-top: 13px;
                                                   width: 100%;
                                                   display: flex;
                                                   flex-wrap: wrap;
                                                   flex-direction: row;
                                                   align-items: center;
-                                                  margin-left: 40px;
+
                                                   height: 40%;
                          }
                          .filtres h4 {
@@ -390,7 +394,7 @@
                                                                                                     0.1
                                                                            );
                                                   margin-left: 10px;
-                                                  margin-bottom: 20px;
+                                                  margin-bottom: 15px;
                          }
 
                          .article-heberg .article-photo {
@@ -408,8 +412,7 @@
                                                   flex-direction: column;
                                                   margin-bottom: 0px;
                                                   box-sizing: border-box;
-                                                  position: relative;
-                                                  left: 10px;
+                                             
                          }
 
                          .article a {
@@ -423,24 +426,9 @@
 
                          .article-heberg:hover .article-photo img {
                                                   /*6*/
-                                                  width: 100%;
-
+                                                  width: 370px;
                                                   filter: grayscale(0);
-                                                  cursor: pointer;
-                                                  object-fit: cover;
-                                                  -webkit-transform: scale(
-                                                                           2.5
-                                                  ); /* Safari et Chrome */
-                                                  -moz-transform: scale(
-                                                                           2.5
-                                                  ); /* Firefox */
-                                                  -ms-transform: scale(
-                                                                           2.5
-                                                  ); /* Internet Explorer 9 */
-                                                  -o-transform: scale(
-                                                                           2.5
-                                                  ); /* Opera */
-                                                  transform: scale(2.5);
+                                                  height: 210px;
                          }
 
                          .article-heberg .article-photo img {
@@ -460,13 +448,12 @@
                                                   font-size: small;
                                                   margin: 9px 0 12px 0;
                          }
-                         .article-heberg .star
-                          {
+                         .article-heberg .star {
                                                   display: flex;
                                                   margin-bottom: 6px;
                          }
                          #link {
-                                                  margin: 0px 0px 0px 55px;
+                                                  margin: 0px 0px 0px 30px;
                                                   font-weight: 800;
                                                   text-decoration: none;
                                                   color: black;
