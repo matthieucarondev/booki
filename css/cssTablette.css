@@ -66,11 +66,10 @@
                                                   margin-bottom: 10px;
                          }
                          .filtre h2 {
-                                                  opacity: 0.8;
                                                   text-align: left;
                                                   font-size: medium;
                                                   width: 80%;
-                                                  font-weight: lighter;
+                                                  font-weight: 500;
                                                   margin-top: 0%;
                          }
                          .filtre {

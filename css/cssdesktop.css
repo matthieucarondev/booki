@@ -445,4 +445,52 @@
                          .article-populaire figcaption .star {
                                                   display: flex;
                          }
+                        #activites
+                         {
+                             background-color:#0065fc;
+                             margin: 0px 0px 0px 0px;
+                             width: 100%;
+                             height: 400px;
+                         }
+                         #activites p {
+                            font-weight: 800;
+                            margin-left: 45px;
+                            font-size: 20px;
+                            position: relative;
+                            left: 25px;
+
+                         }
+                         .list-activites{
+                             list-style-type: none;
+                             display: flex;
+                        height
+                         : 352px;
+                             flex-flow:column wrap;
+                             column-count: 4;
+                             align-content: space-between;    
+                         }
+            
+                         .big
+                         {
+                             width: 20%;
+                             height:300px ;
+                             margin: 2%;
+                                border: 2px solid black;
+                         }
+                         .medium
+                         {
+                             width: 20%;
+                             margin: 2%;
+                             height: 140px;
+                             border: 2px solid black;
+                        }
+                         .small
+                         {
+                             width: 20%;
+                             margin: 2%;
+                            height: 104px;
+                            border: 2px solid black;
+                            }
+                        
+
 }
