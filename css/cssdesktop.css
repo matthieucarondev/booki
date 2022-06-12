@@ -447,10 +447,11 @@
                          }
                         #activites
                          {
-                             background-color:#0065fc;
+                            
                              margin: 0px 0px 0px 0px;
                              width: 100%;
                              height: 400px;
+                             color: black;
                          }
                          #activites p {
                             font-weight: 800;
@@ -463,8 +464,7 @@
                          .list-activites{
                              list-style-type: none;
                              display: flex;
-                        height
-                         : 352px;
+                        height: 352px;
                              flex-flow:column wrap;
                              column-count: 4;
                              align-content: space-between;    
@@ -475,22 +475,77 @@
                              width: 20%;
                              height:300px ;
                              margin: 2%;
-                                border: 2px solid black;
+                             background-color: #ffffff;
+                           border-radius: 15px;
+                           overflow: hidden;
+                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
                          }
+                         .big .activity-photo{
+                            height: 85%;
+                         }
+                         .big   figcaption 
+                         {
+                            font-size: 15px;
+                            font-weight: 800;
+                            margin: 13px 0px 13px 5px;
+                         }
+
                          .medium
                          {
                              width: 20%;
                              margin: 2%;
                              height: 140px;
-                             border: 2px solid black;
+                             background-color: #ffffff;
+                           border-radius: 15px;
+                           overflow: hidden;
+                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
+                        }
+                        .medium .activity-photo{
+                            height: 68%;
+                        }
+                        .medium   figcaption 
+                        {
+                           font-size: 15px;
+                           font-weight: 800;
+                           margin: 13px 0px 13px 5px;
                         }
                          .small
                          {
                              width: 20%;
                              margin: 2%;
-                            height: 104px;
-                            border: 2px solid black;
+                            height: 115px;
+                            background-color: #ffffff;
+                           border-radius: 15px;
+                           overflow: hidden;
+                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
                             }
-                        
-
+                            .small .activity-photo{
+                                height: 60%;
+                            }
+                            .small  figcaption 
+                            {
+                               font-size: 15px;
+                               font-weight: 800;
+                               margin: 13px 0px 13px 5px;
+                            }
+                          
+       .list-activites figure 
+       {
+             width: 100%;
+             height: 100%;
+             margin: 0%;
+          } 
+          
+           .activity-photo img {
+                              width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                               
+       }
+       .article-activi:hover .activity-photo img  {
+        /*6*/
+        width: 110%;
+        filter: grayscale(0);
+        height: 170%;
+     }
 }

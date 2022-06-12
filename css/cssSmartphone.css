@@ -200,7 +200,7 @@
                                                   display: flex;
                                                   font-weight: 600;
                          }
-                         .filtres i {
+                         .i-info {
                                                   position: relative;
                                                   top: 3px;
                                                   right: 26px;
@@ -213,7 +213,7 @@
                                                   border-radius: 100%;
                                                   padding: 14px 14px 14px 14px;
                          }
-                         .filtres i:hover {
+                         .btn-filtre:hover .i-info  {
                                                   position: relative;
                                                   right: 35px;
                                                   display: flex;
@@ -459,4 +459,89 @@
                                                   color: black;
                                                   font-size: 18px;
                          }
+                         #activites
+                         {
+                            width: 100%;
+                            margin: 0px 0px 0px 0px;
+                         }
+                         #activites p {
+                            font-weight: 800;
+                            margin-left: 45px;
+                            font-size: 20px;
+                            text-align: left;
+                         }
+                         .list-activites{
+                            list-style-type: none;
+                            display: flex;
+                       height: auto;
+                            flex-flow:column wrap;
+                            padding-inline-start: 20px;
+                           
+                        }
+                        .big
+                        {
+                            width: 78%;
+                            height: 176px;
+                            margin: 2%;
+                               background-color: #ffffff;
+                               border-radius: 15px;
+                               overflow: hidden;
+                               box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
+                               
+                        }
+                        .medium
+                        {
+                            width: 78%;
+                            margin: 2%;
+                            height: 176px;
+                            background-color: #ffffff;
+                            border-radius: 15px;
+                            overflow: hidden;
+                            box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
+                       }
+                        .small
+                        {
+                            width: 78%;
+                            margin: 2%;
+                            height: 176px;
+                           background-color: #ffffff;
+                           border-radius: 15px;
+                           overflow: hidden;
+                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
+                           }
+                           .activity-photo img 
+                           {
+                             
+                                 width: 110%;
+                                 height: 140px;
+                                 object-fit: cover;
+                                 float: top;
+                                 position: relative;
+                                 bottom: 10px;
+                           }
+                           .list-activites a 
+                           {
+                              width: 100%;
+                              margin: 0%;
+                              color: #333;
+                              text-decoration: none;
+                           }
+                           .list-activites figure 
+                        {
+                              width: 100%;
+                              margin: 0%;
+                           }
+                           .list-activites figcaption 
+                           {
+                              font-size: 16px;
+                              font-weight: 800;
+                              margin: 0px 0px 13px 16px;
+                           }
+                           .article-activi:hover .activity-photo img  {
+                              /*6*/
+                              width: 370px;
+                              filter: grayscale(0);
+                              height: 210px;
+                           }
+    
 }
