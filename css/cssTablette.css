@@ -506,7 +506,7 @@
                                                                            );
                          }
                          .medium1 {
-                                                  margin:13px 5% 0px 0px;
+                                                  margin: 13px 5% 0px 0px;
                                                   width: 55%;
                                                   height: 150px;
                                                   background-color: #ffffff;
@@ -581,10 +581,67 @@
                                                   width: 50%;
                                                   height: 100px;
                          }
-                         .article-activi:hover .activity-photo img  {
-                            /*6*/
-                            width: 110%;
-                            filter: grayscale(0);
-                            height: 160px;
+                         .article-activi:hover .activity-photo img {
+                                                  /*6*/
+                                                  width: 110%;
+                                                  filter: grayscale(0);
+                                                  height: 160px;
+                         }
+                         footer {
+                                                  background-color: #f2f2f2;
+                                                  display: flex;
+                                                  flex-flow: row wrap;
+                                                  justify-content: space-around;
+                                                  height: 200px;
+                                                  padding-left: 35px;
+                         }
+                         footer a {
+                                                  color: #333;
+                                                  text-decoration: none;
+                         }
+                         .about {
+                                                  width: 30%;
+                                                  margin-top: 30px;
+                         }
+                         .about p {
+                                                  font-weight: 800;
+                                                  position: relative;
+                         }
+                         .accommodation {
+                                                  width: 30%;
+                                                  margin-top: 30px;
+                         }
+                         .accommodation p {
+                                                  font-weight: 800;
+                                                  position: relative;
+                         }
+                         .assistance {
+                                                  width: 30%;
+                                                  margin-top: 30px;
+                         }
+                         .assistance p {
+                                                  font-weight: 800;
+                                                  position: relative;
+                         }
+                         .about ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                         }
+                         .about ul li {
+                                                  margin-top: 10px;
+                         }
+                         .accommodation ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                         }
+                         .accommodation ul li {
+                                                  margin-top: 10px;
+                         }
+                         .assistance ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                         }
+                         .assistance ul li {
+                                                  margin-top: 10px;
                          }
 }

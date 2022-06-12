@@ -543,5 +543,70 @@
                               filter: grayscale(0);
                               height: 210px;
                            }
+                           footer {
+                              background-color: #f2f2f2;
+                              display: flex;
+                              flex-flow: column wrap;
+                              justify-content: space-around;
+                             width: 100%;
+                              padding-left: 35px;
+     }
+     footer a{
+        color: #333;
+                              text-decoration: none;
+     }
+     .about {
+                              width: 60%;
+                              margin-top:30px;
+     }
+     .about p {
+                              font-weight: 800;
+                             
+                              
+     }
+     .accommodation {
+                              width: 60%;
+                              margin-top:10px;
+     }
+     .accommodation p {
+                              font-weight: 800;
+                              
+                            
+     }
+     .assistance {
+                              width: 60%;
+                              margin-top:10px;
+     }
+     .assistance p {
+                              font-weight: 800;
+                             
+                              
+     }
+     .about ul {
+                              list-style-type: none;
+                              padding: 2px;
+                              font-weight: 500;
+     }
+     .about ul li {
+        margin-top: 10px;
+     }
+     .accommodation ul {
+                              list-style-type: none;
+                              padding: 2px;
+                              font-weight: 500;
+     }
+     .accommodation ul li 
+     {
+        margin-top: 10px;
+     }
+     .assistance ul {
+    list-style-type: none;
+    padding: 2px;
+    font-weight: 500;
+     }
+     .assistance ul li 
+    { 
+        margin-top: 10px;
+    }
     
 }
