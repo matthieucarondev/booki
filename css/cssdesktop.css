@@ -178,10 +178,10 @@
                          .bouton a {
                                                   color: white;
                          }
-                         .filtres button P {
+                         .filtres button name  {
                                                   position: relative;
                                                   right: 16px;
-                                                  bottom: 5px;
+                                                  bottom: 0px;
                                                   width: auto;
                                                   display: flex;
                                                   align-items: center;
@@ -190,11 +190,11 @@
                          .i-info {
                                                   position: relative;
                                                   right: 35px;
-                                                  bottom: 6px;
+                                                  bottom: 2px;
                                                   display: flex;
                                                   justify-content: center;
-                                                  width: 15px;
-                                                  height: 15px;
+                                                  width: 17px;
+                                                  height: 17px;
                                                   color: #0065fc;
                                                   background-color: #bff0f7;
                                                   border-radius: 100%;
@@ -538,6 +538,13 @@
                                                   font-weight: 800;
                                                   margin: 13px 0px 13px 5px;
                          }
+                         .list-activites a 
+                         {
+                            width: 100%;
+                            margin: 0%;
+                            color: #333;
+                            text-decoration: none;
+                         }
 
                          .list-activites figure {
                                                   width: 100%;
@@ -619,4 +626,3 @@
                             margin-top: 10px;
                         }
                     }
-}

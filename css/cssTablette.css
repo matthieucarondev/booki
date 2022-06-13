@@ -180,9 +180,9 @@
                          .bouton a {
                                                   color: white;
                          }
-                         .filtres button P {
+                         .filtres button name {
                                                   position: relative;
-                                                  right: 16px;
+                                                  right: 20px;
                                                   bottom: 0px;
                                                   width: auto;
                                                   display: flex;
@@ -194,8 +194,8 @@
                                                   right: 35px;
                                                   display: flex;
                                                   justify-content: center;
-                                                  width: 15px;
-                                                  height: 15px;
+                                                  width: 17px;
+                                                  height: 17px;
                                                   color: #0065fc;
                                                   background-color: #bff0f7;
                                                   border-radius: 100%;
@@ -522,7 +522,8 @@
                          }
 
                          .small2 {
-                                                  margin: 13px 0px 13px 0px;
+                                                  margin: 13px 0px 13px 
+                                                  0px;
                                                   width: 30%;
                                                   height: 150px;
 
@@ -561,8 +562,11 @@
                                                   float: top;
                          }
                          .list-activites a {
-                                                  color: #333;
-                                                  text-decoration: none;
+                            width: 100%;
+                            margin: 0% ;
+                            color: #333;
+                            text-decoration: none;
+                            font-weight: 700;
                          }
                          .list-activites figure {
                                                   width: 100%;
@@ -586,6 +590,9 @@
                                                   width: 110%;
                                                   filter: grayscale(0);
                                                   height: 160px;
+                         }
+                         .article-activi figcaption {
+                            padding-left: 15px;
                          }
                          footer {
                                                   background-color: #f2f2f2;
