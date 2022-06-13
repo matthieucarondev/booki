@@ -539,7 +539,7 @@
                            }
                            .article-activi:hover .activity-photo img  {
                               /*6*/
-                              width: 370px;
+                              width: 450px;
                               filter: grayscale(0);
                               height: 210px;
                            }
