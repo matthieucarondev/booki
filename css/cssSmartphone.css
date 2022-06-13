@@ -34,8 +34,7 @@
                                                   align-items: center;
                          }
                          .bordure-nav:hover {
-                                                  border-bottom: 3px solid
-                                                                           #0065fc;
+                                                  border-bottom: 3px solid #0065fc;
                                                   text-decoration-style: none;
                                                   color: #0065fc;
                                                   display: flex;
@@ -273,13 +272,7 @@
                                                   border: 6px solid #ffffff;
                                                   border-radius: 25px;
                                                   overflow: hidden;
-                                                  box-shadow: 5px 5px 20px rgba
-                                                                           (
-                                                                                                    0,
-                                                                                                    0,
-                                                                                                    0,
-                                                                                                    0.1
-                                                                           );
+                                                  box-shadow: 5px 5px 20px rgba  ( 0,  0, 0,0.);
                                                   margin-left: 20px;
                                                   margin-bottom: 20px;
                                                   align-content: center;
@@ -287,7 +280,7 @@
                          .article-populaire a {
                                                   position: relative;
                                                   top: -6px;
-                         }
+                                                }
                          .annonce-populaire {
                                                   display: flex;
                                                   flex-wrap: wrap;
