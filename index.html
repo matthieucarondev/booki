@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -37,33 +37,34 @@
             <h1 class="titre">
                 Trouvez votre hébergement pour des vacances de réve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
-            <section class="recherche">
-                <form accept="" class="formulaire">
+            <div class="recherche">
+                <form class="formulaire">
                     <div class="icon">
                         <i class="fas fa-map-marker-alt black" aria-hidden="true"></i>
                     </div>
                     <input class="champ" type="text" value="Marseille,France" />
-                    <button class="btn">
-                        <p>Recherche</p>
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class="btn"> Recherche </button>
+                    <button class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>
 
-                    </button>
+
                 </form>
-            </section>
+            </div>
             <section class="filtres">
                 <h4>Filtres</h4>
-                <button class="btn-filtre"><i class="fa-solid fa-money-bill-1-wave i-info"></i>
-               <name>&Eacuteconomique</name>   
-                </button>
-                <button class="btn-filtre"><i class="fa-solid fa-child-reaching i-info"></i>
-                    <name>Familial</name>
-                </button>
-                <button class="btn-filtre"><i class="fa-solid fa-heart i-info"></i>
-                   <name>Romantique</name>
-                </button>
-                <button class="btn-filtre"><i class="fa-solid fa-dog i-info"></i>
-                    <name>Animaux autorisés</name>
-                </button>
+                <ul class="filters-ul">
+                    <li class="btn-filtre"><i class="fa-solid fa-money-bill-1-wave i-info"></i>
+                        <p>Économique</p>
+                    </li>
+                    <li class="btn-filtre"><i class="fa-solid fa-child-reaching i-info"></i>
+                        <p>Familial</p>
+                    </li>
+                    <li class="btn-filtre"><i class="fa-solid fa-heart i-info"></i>
+                        <p>Romantique</p>
+                    </li>
+                    <li class="btn-filtre"><i class="fa-solid fa-dog i-info"></i>
+                        <p>Animaux autorisés</p>
+                    </li>
+                </ul>
             </section>
             <div class="info">
                 <i class="fas fa-info fa-sm"></i>
@@ -72,8 +73,8 @@
             </div>
         </div>
         <div class="cont-article">
-            <section class="Article-list">
-                <section id="hebergement">
+            <div class="Article-list">
+                <div id="hebergement">
                     <p>Hébergements à Marseille</p>
                     <ul class="annonce annonce-hebergement">
                         <li class="list-heberg">
@@ -218,7 +219,7 @@
                         </li>
                     </ul>
                     <a href="" id="link">Afficher plus </a>`
-                </section>
+                </div>
                 <aside class="les-populaires">
                     <p>Les plus populaires
                         <i class="fa-solid fa-star"></i>
@@ -295,10 +296,10 @@
                         </li>
                     </ul>
                 </aside>
-            </section>
+            </div>
             <section>
                 <article id="activites">
-                    <p>Activités à Marseille</p>
+                    <h3>Activités à Marseille</h3>
                     <ul class="list-activites">
 
                         <li class="big  article-activi ">
@@ -309,7 +310,7 @@
                                             alt="">
                                     </div>
                                     <figcaption>
-                                       Vieux Port</figcaption>
+                                        Vieux Port</figcaption>
                                 </figure>
 
                             </a>
@@ -324,8 +325,8 @@
                                             alt="">
                                     </div>
                                     <figcaption>
-                                       Fort de Pomégues
-                                     </figcaption>
+                                        Fort de Pomégues
+                                    </figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -339,7 +340,7 @@
                                             alt="">
                                     </div>
                                     <figcaption>
-                                       Îles du frioul
+                                        Îles du frioul
                                     </figcaption>
                                 </figure>
                             </a>
@@ -355,7 +356,7 @@
                                             alt="">
                                     </div>
                                     <figcaption>
-                                       Parc National des Calanques
+                                        Parc National des Calanques
                                     </figcaption>
                                 </figure>
                             </a>
@@ -383,7 +384,7 @@
                                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                                     </div>
                                     <figcaption>
-                                    Parc longchamp</figcaption>
+                                        Parc longchamp</figcaption>
                                 </figure>
                             </a>
                         </li>
@@ -392,7 +393,7 @@
                 </article>
             </section>
 
-       
+
         </div>
         <footer>
             <div class="about">
@@ -404,13 +405,13 @@
                 </ul>
             </div>
             <div class="accommodation">
-               <p>Nos hébergements</p>
+                <p>Nos hébergements</p>
                 <ul>
                     <li><a href="">Charte qualité</a></li>
                     <li><a href="">Soumettre vôtre hôtel</a></li>
                 </ul>
             </div>
-             <div class="assistance">
+            <div class="assistance">
                 <p>Assistance</p>
                 <ul>
                     <li><a href="">Centre d'aide</a></li>
