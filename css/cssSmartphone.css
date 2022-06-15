@@ -34,7 +34,8 @@
                                                   align-items: center;
                          }
                          .bordure-nav:hover {
-                                                  border-bottom: 3px solid #0065fc; 
+                                                  border-bottom: 3px solid
+                                                                           #0065fc;
                                                   color: #0065fc;
                                                   display: flex;
                                                   justify-content: center;
@@ -70,7 +71,7 @@
                                                   font-weight: 800;
                                                   margin: 25px 76px 10px 40px;
                          }
-                         .filtre h2 {
+                         .filtre > p {
                                                   margin-left: 40px;
                                                   opacity: 0.8;
                                                   text-align: left;
@@ -150,11 +151,11 @@
                                                   box-shadow: 10px 5px 5px
                                                                            #0065fc;
                          }
-                         .btn  {
+                         .btn {
                                                   display: none;
                          }
 
-                         .magnifying-glass  i {
+                         .magnifying-glass i {
                                                   width: 60px;
                                                   display: flex;
                                                   align-items: center;
@@ -176,12 +177,40 @@
                                                   font-weight: 1000;
                                                   margin-left: 40px;
                          }
+                         .filters-ul {
+                                                  display: flex;
+                                                  flex-flow: row wrap;
+                                                  width: 90%;
+                         }
+
+                         .eco .i-info {
+                                                  position: relative;
+                                                  right: 21px;
+                                                  top: -3px;
+                         }
+
+                         .Romantic .i-info {
+                                                  position: relative;
+                                                  right: 29px;
+                                                  top: -3px;
+                         }
+                         .Family .i-info {
+                                                  position: relative;
+                                                  right: 29px;
+                                                  top: -3px;
+                         }
+
+                         .pets-allowed .i-info {
+                                                  position: relative;
+                                                  right: 27px;
+                                                  top: -4px;
+                         }
                          .btn-filtre {
                                                   width: auto;
                                                   display: flex;
                                                   flex-direction: row;
                                                   flex-wrap: wrap;
-                                                 
+
                                                   border: none;
                                                   background-color: white;
                                                   margin: 10px 44px 10px 36px;
@@ -192,16 +221,13 @@
                          }
                          .btn-filtre p {
                                                   position: relative;
-                                                  right: 16px;
-                                                top: 0px;
+                                                  right: 19px;
+                                                  top: -7px;
                                                   width: auto;
                                                   display: flex;
                                                   font-weight: 800;
                          }
                          .i-info {
-                                                  position: relative;
-                                                  top: 2px;
-                                                  right: 26px;
                                                   display: flex;
                                                   justify-content: center;
                                                   width: 17px;
@@ -211,7 +237,7 @@
                                                   border-radius: 100%;
                                                   padding: 14px 14px 14px 14px;
                          }
-                         .btn-filtre:hover .i-info  {
+                         .btn-filtre:hover .i-info {
                                                   position: relative;
                                                   right: 25px;
                                                   display: flex;
@@ -271,7 +297,13 @@
                                                   border: 6px solid #ffffff;
                                                   border-radius: 25px;
                                                   overflow: hidden;
-                                                  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
                                                   margin-left: 20px;
                                                   margin-bottom: 20px;
                                                   align-content: center;
@@ -279,7 +311,7 @@
                          .article-populaire a {
                                                   position: relative;
                                                   top: -6px;
-                                                }
+                         }
                          .annonce-populaire {
                                                   display: flex;
                                                   flex-wrap: wrap;
@@ -291,7 +323,7 @@
                                                   width: 382px;
                                                   filter: grayscale(0);
                          }
-                         .les-populaires > p {
+                         .les-populaires > h2 {
                                                   font-weight: 800;
                                                   margin-left: 20px;
                                                   font-size: 20px;
@@ -366,7 +398,7 @@
                                                   flex-direction: column;
                                                   justify-self: center;
                          }
-                         #hebergement > p {
+                         #hebergement > h2 {
                                                   font-weight: 800;
                                                   margin-left: 45px;
                                                   font-size: 20px;
@@ -404,7 +436,6 @@
                                                   flex-direction: column;
                                                   margin-bottom: 0px;
                                                   box-sizing: border-box;
-                                             
                          }
 
                          .article a {
@@ -450,153 +481,151 @@
                                                   color: black;
                                                   font-size: 18px;
                          }
-                         #activites
-                         {
-                            width: 100%;
-                            margin: 0px 0px 0px 0px;
+                         #activites {
+                                                  width: 100%;
+                                                  margin: 0px 0px 0px 0px;
                          }
-                         #activites p {
-                            font-weight: 800;
-                            margin-left: 45px;
-                            font-size: 20px;
-                            text-align: left;
+                         #activites h3 {
+                                                  font-weight: 800;
+                                                  margin-left: 45px;
+                                                  font-size: 20px;
+                                                  text-align: left;
                          }
-                         .list-activites{
-                            list-style-type: none;
-                            display: flex;
-                       height: auto;
-                            flex-flow:column wrap;
-                            padding-inline-start: 20px;
-                           
-                        }
-                        .big
-                        {
-                            width: 78%;
-                            height: 176px;
-                            margin: 2%;
-                               background-color: #ffffff;
-                               border-radius: 15px;
-                               overflow: hidden;
-                               box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                               
-                        }
-                        .medium
-                        {
-                            width: 78%;
-                            margin: 2%;
-                            height: 176px;
-                            background-color: #ffffff;
-                            border-radius: 15px;
-                            overflow: hidden;
-                            box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                       }
-                        .small
-                        {
-                            width: 78%;
-                            margin: 2%;
-                            height: 176px;
-                           background-color: #ffffff;
-                           border-radius: 15px;
-                           overflow: hidden;
-                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                           }
-                           .activity-photo img 
-                           {
-                             
-                                 width: 110%;
-                                 height: 140px;
-                                 object-fit: cover;
-                                 position: relative;
-                                 bottom: 10px;
-                           }
-                           .list-activites a 
-                           {
-                              width: 100%;
-                              margin: 0%;
-                              color: #333;
-                              text-decoration: none;
-                           }
-                           .list-activites figure 
-                        {
-                              width: 100%;
-                              margin: 0%;
-                           }
-                           .list-activites figcaption 
-                           {
-                              font-size: 16px;
-                              font-weight: 800;
-                              margin: 0px 0px 13px 16px;
-                           }
-                           .article-activi:hover .activity-photo img  {
-                              /*6*/
-                              width: 450px;
-                              filter: grayscale(0);
-                              height: 210px;
-                           }
-                           footer {
-                              background-color: #f2f2f2;
-                              display: flex;
-                              flex-flow: column wrap;
-                              justify-content: space-around;
-                             width: 100%;
-                              padding-left: 35px;
-     }
-     footer a{
-        color: #333;
-                              text-decoration: none;
-     }
-     .about {
-                              width: 60%;
-                              margin-top:30px;
-     }
-     .about p {
-                              font-weight: 800;
-                             
-                              
-     }
-     .accommodation {
-                              width: 60%;
-                              margin-top:10px;
-     }
-     .accommodation p {
-                              font-weight: 800;
-                              
-                            
-     }
-     .assistance {
-                              width: 60%;
-                              margin-top:10px;
-     }
-     .assistance p {
-                              font-weight: 800;
-                             
-                              
-     }
-     .about ul {
-                              list-style-type: none;
-                              padding: 2px;
-                              font-weight: 500;
-     }
-     .about ul li {
-        margin-top: 10px;
-     }
-     .accommodation ul {
-                              list-style-type: none;
-                              padding: 2px;
-                              font-weight: 500;
-     }
-     .accommodation ul li 
-     {
-        margin-top: 10px;
-     }
-     .assistance ul {
-    list-style-type: none;
-    padding: 2px;
-    font-weight: 500;
-     }
-     .assistance ul li 
-    { 
-        margin-top: 10px;
-    }
-    
+                         .list-activites {
+                                                  list-style-type: none;
+                                                  display: flex;
+                                                  height: auto;
+                                                  flex-flow: column wrap;
+                                                  padding-inline-start: 20px;
+                         }
+                         .big {
+                                                  width: 78%;
+                                                  height: 176px;
+                                                  margin: 2%;
+                                                  background-color: #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                         }
+                         .medium {
+                                                  width: 78%;
+                                                  margin: 2%;
+                                                  height: 176px;
+                                                  background-color: #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                         }
+                         .small {
+                                                  width: 78%;
+                                                  margin: 2%;
+                                                  height: 176px;
+                                                  background-color: #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                         }
+                         .activity-photo img {
+                                                  width: 110%;
+                                                  height: 140px;
+                                                  object-fit: cover;
+                                                  position: relative;
+                                                  bottom: 10px;
+                         }
+                         .list-activites a {
+                                                  width: 100%;
+                                                  margin: 0%;
+                                                  color: #333;
+                                                  text-decoration: none;
+                         }
+                         .list-activites figure {
+                                                  width: 100%;
+                                                  margin: 0%;
+                         }
+                         .list-activites figcaption {
+                                                  font-size: 16px;
+                                                  font-weight: 800;
+                                                  margin: 0px 0px 13px 16px;
+                         }
+                         .article-activi:hover .activity-photo img {
+                                                  /*6*/
+                                                  width: 450px;
+                                                  filter: grayscale(0);
+                                                  height: 210px;
+                         }
+                         footer {
+                                                  background-color: #f2f2f2;
+                                                  display: flex;
+                                                  flex-flow: column wrap;
+                                                  justify-content: space-around;
+                                                  width: 100%;
+                                                  padding-left: 35px;
+                         }
+                         footer a {
+                                                  color: #333;
+                                                  text-decoration: none;
+                         }
+                         .about {
+                                                  width: 60%;
+                                                  margin-top: 30px;
+                         }
+                         .about p {
+                                                  font-weight: 800;
+                         }
+                         .accommodation {
+                                                  width: 60%;
+                                                  margin-top: 10px;
+                         }
+                         .accommodation p {
+                                                  font-weight: 800;
+                         }
+                         .assistance {
+                                                  width: 60%;
+                                                  margin-top: 10px;
+                         }
+                         .assistance p {
+                                                  font-weight: 800;
+                         }
+                         .about ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                                                  font-weight: 500;
+                         }
+                         .about ul li {
+                                                  margin-top: 10px;
+                         }
+                         .accommodation ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                                                  font-weight: 500;
+                         }
+                         .accommodation ul li {
+                                                  margin-top: 10px;
+                         }
+                         .assistance ul {
+                                                  list-style-type: none;
+                                                  padding: 2px;
+                                                  font-weight: 500;
+                         }
+                         .assistance ul li {
+                                                  margin-top: 10px;
+                         }
 }

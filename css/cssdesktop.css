@@ -62,7 +62,7 @@
                                                   font-weight: 800;
                                                   margin-bottom: 10px;
                          }
-                         .filtre h2 {
+                         .filtre>p {
                                                   text-align: left;
                                                   font-size: medium;
                                                   width: 80%;
@@ -249,7 +249,7 @@
                                                   padding: 0px 10px;
                                                   margin: 5px 25px 0 20px;
                          }
-                         #hebergement > p {
+                         #hebergement > h2 {
                                                   font-weight: 800;
                                                   margin-left: 45px;
                                                   font-size: 20px;
@@ -345,9 +345,9 @@
                                                   color: black;
                                                   font-size: 18px;
                          }
-                         .les-populaires > p {
-                                                  font-weight: bold;
-                                                  margin-left: 20px;
+                         .les-populaires > h2 {
+                                                  font-weight: 800;
+                                                  margin-left: 25px;
                                                   font-size: 20px;
                          }
                          .les-populaires i {
@@ -443,12 +443,12 @@
                                                   height: auto;
                                                   color: black;
                          }
-                         #activites p {
+                         #activites h3 {
                                                   font-weight: 800;
                                                   margin-left: 45px;
                                                   font-size: 20px;
                                                   position: relative;
-                                                  left: 25px;
+                                                  left: 20px;
                          }
                          .list-activites {
                                                   list-style-type: none;
