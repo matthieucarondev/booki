@@ -458,10 +458,11 @@
                                                   column-count: 4;
                                                   align-content: space-between;
                                                   padding-left: 12px;
+                                                  width: 76%;
                          }
 
                          .big {
-                                                  width: 23%;
+                                                  width: 30%;
                                                   height: 415px;
                                                   margin: 1%;
                                                   background-color: #ffffff;
@@ -485,7 +486,7 @@
                          }
 
                          .medium {
-                                                  width: 23%;
+                                                  width: 30%;
                                                   margin: 1%;
                                                   height: 210px;
                                                   background-color: #ffffff;
@@ -508,7 +509,7 @@
                                                   margin: 13px 0px 13px 5px;
                          }
                          .small {
-                                                  width: 23%;
+                                                  width: 30%;
                                                   margin: 1%;
                                                   height: 180px;
                                                   background-color: #ffffff;
