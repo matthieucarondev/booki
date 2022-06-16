@@ -5,9 +5,7 @@
                          HTML {
                                                   width: auto;
                          }
-                         body {
-                                                  overflow-x: hidden;
-                         }
+                       
 
                          /*HEADER*/
 
@@ -20,7 +18,7 @@
                          }
                          #logo {
                                                   margin: 50px 0 40px 60px;
-                                                  width: 42%;
+                                                  width: 9%;
                          }
 
                          .menu {
@@ -255,7 +253,7 @@
                                                   font-size: 20px;
                          }
 
-                         .annonce {
+                         .annonce-hebergement {
                                                   list-style-type: none;
                                                   display: flex;
                                                   flex-wrap: wrap;
@@ -265,26 +263,15 @@
                                                   width: 33%;
                          }
                          .article {
-                                                  width: 70%;
-                                                  height: 200px;
-                                                  background-color: #ffffff;
-                                                  border: 5px solid #ffffff;
-                                                  border-radius: 15px;
-                                                  overflow: hidden;
-                                                  box-shadow: 5px 5px 20px
-                                                                           rgba(
-                                                                                                    0,
-                                                                                                    0,
-                                                                                                    0,
-                                                                                                    0.1
-                                                                           );
-                                                  margin-left: 10px;
-                                                  margin-bottom: 20px;
-                         }
-
-                         .article-heberg .article-photo {
-                                                  width: 100%;
-                                                  height: 45%;
+                           width: 88%;
+                           height: 200px;
+                           background-color: #ffffff;
+                           border: 5px solid #ffffff;
+                           border-radius: 15px;
+                           overflow: hidden;
+                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
+                           margin-left: 10px;
+                           margin-bottom: 23px;
                          }
                          .article-heberg figure {
                                                   width: 260px;
@@ -302,16 +289,15 @@
                                                   color: #333;
                                                   text-decoration: none;
                          }
-                         .article:hover .article-photo img {
+                         .article-heberg:hover .heberg-photo  {
                                                   /*6*/
-                                                  width: 250px;
+                                                  width: 110%;
                                                   filter: grayscale(0);
                                                   height: 210px;
                          }
 
-                         .article-photo img {
-                                                  width: 264px;
-                                                  height: 127px;
+                         .heberg-photo { width: 100%;
+                           height: 45%;
                                                   object-fit: cover;
                                                   
                                                   position: relative;
@@ -320,7 +306,7 @@
                          .article-heberg figcaption > h3 {
                                                   font-size: 13px;
                                                   font-weight: 800;
-                                                  margin: 10px 0 0px 0;
+                                                  margin: 1px 0 9px 0;
                          }
                          .article-heberg figcaption > p {
                                                   font-size: small;
@@ -329,6 +315,7 @@
 
                          .article figcaption  /* mise en place texte*/ {
                                                   margin-left: 8px;
+                                                  margin-bottom: 34px;
                          }
 
                          .star-on {
@@ -356,24 +343,24 @@
                          .les-populaires {
                                                   background-color: #f2f2f2;
                                                   padding: 0px 5px;
-                                                  width: 360px;
+                                                  width: 40%;
                                                   border-radius: 25px;
                          }
                          .article-populaire {
                                                   font-size: smaller;
-                                                  width: 308px;
+                                                  width: 100%;
                                                   height: 135px;
                                                   background-color: #ffffff;
                                                   border: 2px solid #ffffff;
                                                   border-radius: 15px;
                                                   object-fit: cover;
                                                   box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                                                  margin: 0 38px 30px 0px;
-                                                  align-content: center;
+                                                  
                          }
-                         .article-populaire:hover .article-photo img {
+                         .article-populaire:hover .populaire-photo{
                                                   /*6*/
-                                                  width: 350px;
+                                                  height: auto;
+                                                  width: 102%;
                                                   filter: grayscale(0);
                          }
                          .article-populaire a {
@@ -382,8 +369,9 @@
                          .annonce-populaire {
                                                   display: flex;
                                                   flex-wrap: wrap;
-                                                  width: 385px;
-                                                  padding: 0px;
+                                                  width:95%;
+                                                  padding: 0px 0px 0px 0px;
+                                                  list-style-type: none;
                          }
                          .titre-populaire {
                                                   font-size: 20px;
@@ -394,18 +382,17 @@
                          .titre-populaire > i {
                                                   float: right;
                          }
-                         .article-populaire .article-photo img {
-                                                  width: 130px;
-                                                  height: 152px;
+                         .populaire-photo  {
+                                                  width: 47%;
                                                   object-fit: cover;
                                                   float: left;
-                                                  margin-right: 10px;
+                                                  height: 150px;
                          }
                          .article-populaire figure {
                                                   display: flex;
                                                   flex-direction: row;
                                                   align-items: center;
-                                                  width: 260px;
+                                                  width: 100%;
                                                   height: 150px;
                                                   margin: 2px;
                                                   justify-items: flex-start;
@@ -414,17 +401,17 @@
                          }
                          .article-populaire figcaption {
                                                   font-size: small;
-                                                  width: 100%;
+                                                  width: 40%;
                                                   display: flex;
                                                   flex-flow: column wrap;
                                                   height: 100%;
                          }
                          .article-populaire figcaption h3 {
-                                                  font-weight: 800;
-                                                  font-size: 16px;
-                                                  margin: 18px 0 0px 0;
-                                                  width: 100%;
-                                                  height: 31px;
+                           font-weight: 800;
+                           font-size: 15px;
+                           margin: 22px 0 0px 0;
+                           width: 100%;
+                           height: 42px;
                          }
                          .article-populaire figcaption p {
                                                   margin-bottom: 35px;
@@ -438,17 +425,16 @@
                                                   display: flex;
                          }
                          #activites {
-                                                  margin: 0px 0px 0px 30px;
+                                                  margin: 0px 0px 0px 0px;
                                                   width: 100%;
                                                   height: auto;
                                                   color: black;
                          }
                          #activites h3 {
                                                   font-weight: 800;
-                                                  margin-left: 45px;
+                                                  padding-left: 65px;
                                                   font-size: 20px;
-                                                  position: relative;
-                                                  left: 20px;
+                                                 
                          }
                          .list-activites {
                                                   list-style-type: none;
@@ -458,11 +444,11 @@
                                                   column-count: 4;
                                                   align-content: space-between;
                                                   padding-left: 12px;
-                                                  width: 76%;
+                                                  width: 90%;
                          }
 
                          .big {
-                                                  width: 30%;
+                                                  width: 25%;
                                                   height: 415px;
                                                   margin: 1%;
                                                   background-color: #ffffff;
@@ -486,7 +472,7 @@
                          }
 
                          .medium {
-                                                  width: 30%;
+                                                  width: 25%;
                                                   margin: 1%;
                                                   height: 210px;
                                                   background-color: #ffffff;
@@ -509,7 +495,7 @@
                                                   margin: 13px 0px 13px 5px;
                          }
                          .small {
-                                                  width: 30%;
+                                                  width: 25%;
                                                   margin: 1%;
                                                   height: 180px;
                                                   background-color: #ffffff;
@@ -545,17 +531,35 @@
                                                   margin: 0%;
                          }
 
-                         .activity-photo img {
+                         .activity-photo  {
                                                   width: 100%;
                                                   height: 100%;
                                                   object-fit: cover;
                          }
-                         .article-activi:hover .activity-photo img {
+                         .big:hover .activity-photo  {
                                                   /*6*/
                                                   width: 110%;
                                                   filter: grayscale(0);
                                                   height: 170%;
+                                                   position: relative;
+                                                   bottom: 290px;
                          }
+                         .medium:hover .activity-photo  {
+                           /*6*/
+                           width: 110%;
+                           filter: grayscale(0);
+                           height: 170%;
+                            position: relative;
+                            bottom: 100px;
+  }
+  .small:hover .activity-photo  {
+   /*6*/
+   width: 110%;
+   filter: grayscale(0);
+   height: 170%;
+    position: relative;
+    bottom: 70px;
+}
                          footer {
                                                   background-color: #f2f2f2;
                                                   display: flex;
