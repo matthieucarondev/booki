@@ -7,7 +7,6 @@
                          body {
                                                   font-family: Raleway;
                                                   width: 90%;
-                                                
                          }
 
                          .logo/*HEADER*/ {
@@ -136,13 +135,12 @@
                                                   border-radius: 15px 15px 15px
                                                                            15px;
                                                   color: white;
+                                                  cursor: pointer;
                          }
-                         .magnifying-glass :hover {
-                                                  display: flex;
-                                                  align-items: center;
-                                                  justify-content: center;
+                         .magnifying-glass:hover {
+                                                  
                                                   width: 60px;
-                                                  height: auto;
+                                                  height: 100%;
                                                   border: 2px solid #0065fc;
                                                   background-color: #fdfdfd;
                                                   border-radius: 15px 15px 15px
@@ -150,6 +148,7 @@
                                                   color: #0065fc;
                                                   box-shadow: 10px 5px 5px
                                                                            #0065fc;
+                                                                           cursor: pointer;
                          }
                          .btn {
                                                   display: none;
@@ -180,30 +179,33 @@
                          .filters-ul {
                                                   display: flex;
                                                   flex-flow: row wrap;
-                                                  width: 90%;
+                                                  width: 100%;
                          }
-
+                         
                          .eco .i-info {
                                                   position: relative;
-                                                  right: 21px;
-                                                  top: -3px;
+                                                  right: 29px;
+                                                  bottom: 5px;
                          }
-
-                         .Romantic .i-info {
+                       
+                         .romantic .i-info {
                                                   position: relative;
                                                   right: 29px;
-                                                  top: -3px;
+                                                  bottom: 5px;
                          }
-                         .Family .i-info {
+                       
+                         .family .i-info {
                                                   position: relative;
                                                   right: 29px;
-                                                  top: -3px;
+                                                  bottom: 5px;
+                         
                          }
+                        
 
                          .pets-allowed .i-info {
                                                   position: relative;
-                                                  right: 27px;
-                                                  top: -4px;
+                                                  right: 29px;
+                                                  bottom: 5px;
                          }
                          .btn-filtre {
                                                   width: auto;
@@ -219,19 +221,19 @@
                                                                            0px;
                                                   height: 40px;
                          }
-                         .btn-filtre p {
+                         .btn-filtre span {
                                                   position: relative;
                                                   right: 19px;
-                                                  top: -7px;
+                                                  top: 8px;
                                                   width: auto;
                                                   display: flex;
-                                                  font-weight: 800;
+                                                  font-weight: 700;
                          }
                          .i-info {
                                                   display: flex;
                                                   justify-content: center;
-                                                  width: 17px;
-                                                  height: 17px;
+                                                  width: 14px;
+                                                  height: 14px;
                                                   color: #0065fc;
                                                   background-color: #90dafd;
                                                   border-radius: 100%;
@@ -251,15 +253,15 @@
                                                   cursor: pointer;
                          }
                          .info {
-                                                  margin-left: 37px;
+                                                  padding-left: 16px;
                                                   display: flex;
                                                   align-items: baseline;
                                                   width: 100%;
                          }
                          .fa-info /* bulle info*/ {
-                                                  font-size: x-small;
-                         }
-                         .info i {
+                           
+                                                  font-size: .9em;
+                                                 
                                                   color: #0065fc;
                                                   background-color: white;
                                                   border-radius: 100%;
@@ -313,15 +315,15 @@
                                                   top: -6px;
                          }
                          .annonce-populaire {
-                            display: flex;
-                            flex-wrap: wrap;
-                            width: 95%;
-                            padding-left: 5%;
+                                                  display: flex;
+                                                  flex-wrap: wrap;
+                                                  width: 95%;
+                                                  padding-left: 5%;
                          }
-                         .annonce-populaire li{
-                            width: 100%;
+                         .annonce-populaire li {
+                                                  width: 100%;
                          }
-                         .article-populaire:hover  .populaire-photo {
+                         .article-populaire:hover .populaire-photo {
                                                   /*6*/
                                                   width: 120%;
                                                   filter: grayscale(0);
@@ -332,13 +334,12 @@
                                                   font-weight: 800;
                                                   padding-left: 20px;
                                                   font-size: 20px;
-                                                  width:100%;
+                                                  width: 100%;
                          }
                          .star-pop {
                                                   float: right;
                                                   position: relative;
                                                   right: 37px;
-                                                  
                          }
                          .populaire-photo {
                                                   position: relative;
@@ -362,7 +363,7 @@
                                                   align-items: flex-start;
                          }
                          .article-populaire figure {
-                                                  width: 340px;
+                                                  width: 91%;
                                                   height: 135px;
                          }
                          .article-populaire figcaption h3 {
@@ -392,116 +393,112 @@
                                                   color: #a0a1a1;
                          }
                          .annonce-hebergement {
-                            list-style-type: none;
-                            display: flex;
-                            justify-content: space-around;
-                            flex-flow: row wrap;
-                            align-items: stretch;
-                            width: 100%;
-                            padding: 0px 10px;
-                            flex-direction: column;
-                            flex-wrap: nowrap;
-                        }
-                         
+                                                  list-style-type: none;
+                                                  display: flex;
+                                                  justify-content: space-around;
+                                                  flex-flow: row wrap;
+                                                  align-items: stretch;
+                                                  width: 100%;
+                                                  padding: 0px 10px;
+                                                  flex-direction: column;
+                                                  flex-wrap: nowrap;
+                         }
+
                          #hebergement/* hébergement */ {
-                            margin: 0 auto;
-                            
-                            border-radius: 25px;
-                            padding: 0px;
-                            margin:0 ;
-                            width: 96%;
-                            display: flex;
-                            flex-direction: column;
-   }
-   #hebergement > h2 {
-                            font-weight: 800;
-                            
-                            font-size: 28px;
-                           
-   }
+                                                  margin: 0 auto;
 
-  
-   
-   .list-heberg {
-                            width: 95%;
-   }
+                                                  border-radius: 25px;
+                                                  padding: 0px;
+                                                  margin: 0;
+                                                  width: 96%;
+                                                  display: flex;
+                                                  flex-direction: column;
+                         }
+                         #hebergement > h2 {
+                           font-weight: 700;
+                           font-size: 23px;
+                           padding-left: 10px;
+                         }
 
-   .article-heberg {
-                            width: 85%;
-                            height: 200px;
-                            background-color: #ffffff;
-                            border: 5px solid #ffffff;
-                            border-radius: 25px;
-                            overflow: hidden;
-                            box-shadow: 5px 5px 20px
-                                                     rgba(
-                                                                              0,
-                                                                              0,
-                                                                              0,
-                                                                              0.1
-                                                     );
-                            margin-left: 10px;
-                            margin-bottom: 20px;
-   }
-   .article-heberg figure {
-                            width: 100%;
-                            height: 150px;
-                            margin: 2px;
-   }
+                         .list-heberg {
+                                                  width: 95%;
+                         }
 
-   .article-heberg figcaption {
-                            display: flex;
-                            flex-direction: column;
-                            box-sizing: border-box;
+                         .article-heberg {
+                                                  width: 85%;
+                                                  height: 200px;
+                                                  background-color: #ffffff;
+                                                  border: 5px solid #ffffff;
+                                                  border-radius: 25px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                                                  margin-left: 10px;
+                                                  margin-bottom: 20px;
+                         }
+                         .article-heberg figure {
+                                                  width: 100%;
+                                                  height: 150px;
+                                                  margin: 2px;
+                         }
 
-   }
+                         .article-heberg figcaption {
+                                                  display: flex;
+                                                  flex-direction: column;
+                                                  box-sizing: border-box;
+                         }
 
-   .article a {
-                            color: #333;
-                            text-decoration: none;
-   }
-   .article-heberg:hover .heberg-photo {
-                            /*6*/
-                            width: 100%;
-                            filter: grayscale(0);
-                            height: 210px;
-   }
+                         .article a {
+                                                  color: #333;
+                                                  text-decoration: none;
+                         }
+                         .article-heberg:hover .heberg-photo {
+                                                  /*6*/
+                                                  width: 100%;
+                                                  filter: grayscale(0);
+                                                  height: 210px;
+                         }
 
-   .heberg-photo {
-                            width: 100%;
-                            height: 72%;
+                         .heberg-photo {
+                                                  width: 100%;
+                                                  height: 72%;
 
-                            object-fit: cover;
-                            position: relative;
-                            bottom: 10px;
-   }
-   .article-heberg figcaption > h3 {
-    font-size: 20px;
-    font-weight: 800;
-    margin: -2px -2px 13px 10px;
-   }
-   .article-heberg figcaption > p {
-                            font-size: small;
-                            margin: 0px 0 11px 0;
-   }
+                                                  object-fit: cover;
+                                                  position: relative;
+                                                  bottom: 10px;
+                         }
+                         .article-heberg figcaption>h3 {
+                           font-size: 18px;
+                           font-weight: 700;
+                           margin: 0px 0 4px 0;
+                         }
+                         .article-heberg figcaption>p {
+                                                  font-size: small;
+                                                  margin: 0px 0 11px 0;
+                         }
 
-   #link {
-    margin: 0%;
-    width: 50%;
-    padding-left: 26px;
-    font-weight: 800;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-   }
+                         #link {
+                                                  margin: 0%;
+                                                  width: 50%;
+                                                  padding-left: 26px;
+                                                  font-weight: 800;
+                                                  text-decoration: none;
+                                                  color: black;
+                                                  font-size: 18px;
+                         }
                          #activites {
                                                   width: 100%;
                                                   margin: 0px 0px 0px 0px;
                          }
                          #activites h3 {
                                                   font-weight: 800;
-                                                 padding-left: 30px;
-                                                 width: 50%;
+                                                  padding-left: 30px;
+                                                  width: 50%;
                                                   font-size: 20px;
                                                   text-align: left;
                                                   margin-right: 0%;
@@ -514,8 +511,7 @@
                                                   padding-inline-start: 20px;
                          }
                          .big {
-                                                  width: 78%;
-                                                  height: 176px;
+                                                  
                                                   margin: 2%;
                                                   background-color: #ffffff;
                                                   border-radius: 15px;
@@ -529,7 +525,7 @@
                                                                            );
                          }
                          .medium {
-                                                  width: 78%;
+                                                
                                                   margin: 2%;
                                                   height: 176px;
                                                   background-color: #ffffff;
@@ -544,7 +540,7 @@
                                                                            );
                          }
                          .small {
-                                                  width: 78%;
+                                                 
                                                   margin: 2%;
                                                   height: 176px;
                                                   background-color: #ffffff;
@@ -578,7 +574,7 @@
                          .list-activites figcaption {
                                                   font-size: 16px;
                                                   font-weight: 800;
-                                                  margin: 0px 0px 13px 16px;
+                                                  margin: 8px 0px 13px 16px;
                          }
                          .article-activi:hover .activity-photo {
                                                   /*6*/
@@ -586,13 +582,18 @@
                                                   filter: grayscale(0);
                                                   height: 210px;
                          }
+                         .article-activi{
+                           width: 78%;
+                           height: 200px;
+  }
+                       
                          footer {
-                            background-color: #f2f2f2;
-                            display: flex;
-                            flex-flow: column wrap;
-                            justify-content: space-around;
-                            width: 83%;
-                            padding-left: 35px;
+                                                  background-color: #f2f2f2;
+                                                  display: flex;
+                                                  flex-flow: column wrap;
+                                                  justify-content: space-around;
+                                                  width: 83%;
+                                                  padding-left: 35px;
                          }
                          footer a {
                                                   color: #333;

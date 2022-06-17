@@ -222,6 +222,7 @@
                                                   border: 1px solid #a09e9e;
                                                   padding: 12px 9px 12px 9px;
                                                   margin-right: 10px;
+                                                  font-size: 1em;
                          }
                          .info p {
                                                   opacity: 0.8;
@@ -304,9 +305,9 @@
                                                   bottom: 10px;
                          }
                          .article-heberg figcaption > h3 {
-                                                  font-size: 13px;
-                                                  font-weight: 800;
-                                                  margin: 1px 0 9px 0;
+                          font-size: 18px;
+                          font-weight: 700;
+                          margin: 0px 0 4px 0;
                          }
                          .article-heberg figcaption > p {
                                                   font-size: small;
@@ -414,7 +415,7 @@
                            height: 42px;
                          }
                          .article-populaire figcaption p {
-                                                  margin-bottom: 35px;
+                                                  margin-bottom: 33px;
                                                   font-weight: 500;
                          }
                          .lodging-price {
