@@ -438,13 +438,14 @@
                                                  
                          }
                          .list-activites {
+                          width: 100%;
                                                   list-style-type: none;
                                                   display: flex;
                                                   height: 450px;
                                                   flex-flow: column wrap;
                                                   column-count: 4;
                                                   align-content: space-between;
-                                                  padding-left: 12px;
+                                                  padding-left:35px;
                                                   width: 90%;
                          }
 
@@ -498,7 +499,7 @@
                          .small {
                                                   width: 25%;
                                                   margin: 1%;
-                                                  height: 180px;
+                                                  height: 160px;
                                                   background-color: #ffffff;
                                                   border-radius: 15px;
                                                   overflow: hidden;
