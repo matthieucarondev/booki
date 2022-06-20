@@ -344,12 +344,13 @@
                          .les-populaires {
                           /* liste annonce*/
                           background-color: #f2f2f2;
+                          border-radius: 25px;
                           padding: 0px 0px;
                           width: 40%;
  }
  .article-populaire {
   font-size: smaller;
-  width: 80%;
+  width: 84%;
   height: 135px;
   background-color: #ffffff;
   border: 6px solid #ffffff;
@@ -362,7 +363,7 @@
                                                     0,
                                                     0.1
                            );
-  margin-left: 20px;
+  margin-left: 8%;
   margin-bottom: 20px;
   align-content: center;
 }
@@ -379,7 +380,7 @@
                                                   display: flex;
                                                   flex-wrap: wrap;
                                                   width:95%;
-                                                  padding: 0px 0px 0px 0px;
+                                                  padding: 0px 0px 0px 20px;
                                                   list-style-type: none;
                          }
                          .titre-populaire {
@@ -392,7 +393,7 @@
                                                   float: right;
                          }
                          .populaire-photo {
-                          width: 60%;
+                          width: 50%;
                           object-fit: cover;
                           position: relative;
                           right: 38px;
@@ -412,7 +413,7 @@
                          }
                          .article-populaire figcaption {
                                                   font-size: small;
-                                                  width:160px;
+                                                  width: 184px;
                                                   display: flex;
                                                   flex-flow: column wrap;
                                                   height: 100%;
@@ -423,7 +424,7 @@
                          }
                          .article-populaire figcaption h3 {
                            font-weight: 800;
-                           font-size: 12px;
+                           font-size: 16px;
                           
                            width: 100%;
                            height: 42px;
@@ -439,7 +440,7 @@
                          .article-populaire figcaption .star {
                                                   display: flex;
                                                   position: absolute;
-                                                  top: 84%;
+                                                  top:84%;
                          }
                          #activites {
                                                   margin: 0px 0px 0px 0px;
