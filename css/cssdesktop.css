@@ -292,12 +292,12 @@
                          }
                          .article-heberg:hover .heberg-photo  {
                                                   /*6*/
-                                                  width: 110%;
+                                                  width: 133%;
                                                   filter: grayscale(0);
                                                   height: 210px;
                          }
 
-                         .heberg-photo { width: 100%;
+                         .heberg-photo { width: 133%;
                            height: 45%;
                                                   object-fit: cover;
                                                   
@@ -316,7 +316,7 @@
 
                          .article figcaption  /* mise en place texte*/ {
                                                   margin-left: 8px;
-                                                  margin-bottom: 34px;
+                                                  margin-bottom: 10px;
                          }
 
                          .star-on {
@@ -342,26 +342,34 @@
                                                   float: right;
                          }
                          .les-populaires {
-                                                  background-color: #f2f2f2;
-                                                  padding: 0px 5px;
-                                                  width: 40%;
-                                                  border-radius: 25px;
-                         }
-                         .article-populaire {
-                                                  font-size: smaller;
-                                                  width: 100%;
-                                                  height: 135px;
-                                                  background-color: #ffffff;
-                                                  border: 2px solid #ffffff;
-                                                  border-radius: 15px;
-                                                  object-fit: cover;
-                                                  box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                                                  
-                         }
+                          /* liste annonce*/
+                          background-color: #f2f2f2;
+                          padding: 0px 0px;
+                          width: 40%;
+ }
+ .article-populaire {
+  font-size: smaller;
+  width: 80%;
+  height: 135px;
+  background-color: #ffffff;
+  border: 6px solid #ffffff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px
+                           rgba(
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0.1
+                           );
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+}
                          .article-populaire:hover .populaire-photo{
                                                   /*6*/
                                                   height: auto;
-                                                  width: 102%;
+                                                  width: 130%;
                                                   filter: grayscale(0);
                          }
                          .article-populaire a {
@@ -383,12 +391,14 @@
                          .titre-populaire > i {
                                                   float: right;
                          }
-                         .populaire-photo  {
-                                                  width: 47%;
-                                                  object-fit: cover;
-                                                  float: left;
-                                                  height: 150px;
-                         }
+                         .populaire-photo {
+                          width: 60%;
+                          object-fit: cover;
+                          position: relative;
+                          right: 38px;
+                          bottom: 23px;
+                          min-height:160px ;
+ }
                          .article-populaire figure {
                                                   display: flex;
                                                   flex-direction: row;
@@ -398,19 +408,23 @@
                                                   margin: 2px;
                                                   justify-items: flex-start;
 
-                                                  width: 100%;
+                                                  width: 110%;
                          }
                          .article-populaire figcaption {
                                                   font-size: small;
-                                                  width: 40%;
+                                                  width:160px;
                                                   display: flex;
                                                   flex-flow: column wrap;
                                                   height: 100%;
+                                                  padding-right: 11px;
+                                                  position: relative;
+                                                  right: 30px;
+                                                  flex-wrap: nowrap;
                          }
                          .article-populaire figcaption h3 {
                            font-weight: 800;
-                           font-size: 15px;
-                           margin: 22px 0 0px 0;
+                           font-size: 12px;
+                          
                            width: 100%;
                            height: 42px;
                          }
@@ -424,6 +438,8 @@
 
                          .article-populaire figcaption .star {
                                                   display: flex;
+                                                  position: absolute;
+                                                  top: 84%;
                          }
                          #activites {
                                                   margin: 0px 0px 0px 0px;

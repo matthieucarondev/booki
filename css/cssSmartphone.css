@@ -361,9 +361,10 @@
                                                   display: flex;
                                                   flex-direction: column;
                                                   align-items: flex-start;
+                                                  
                          }
                          .article-populaire figure {
-                                                  width: 91%;
+                                                  width: 95%;
                                                   height: 135px;
                          }
                          .article-populaire figcaption h3 {
