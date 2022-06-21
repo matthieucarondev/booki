@@ -5,7 +5,6 @@
                          HTML {
                                                   width: auto;
                          }
-                       
 
                          /*HEADER*/
 
@@ -60,7 +59,7 @@
                                                   font-weight: 800;
                                                   margin-bottom: 10px;
                          }
-                         .filtre>p {
+                         .filtre > p {
                                                   text-align: left;
                                                   font-size: medium;
                                                   width: 80%;
@@ -137,7 +136,7 @@
                                                                            #0065fc;
                          }
 
-                         .magnifying-glass  {
+                         .magnifying-glass {
                                                   display: none;
                          }
 
@@ -157,33 +156,32 @@
                                                   justify-content: flex-start;
                                                   align-items: center;
                          }
-                         
+
                          .bouton a {
                                                   color: white;
                          }
-                         
-                                                 
-                         .filters-ul{
-                           display: flex;
-                           flex-direction: row;
+
+                         .filters-ul {
+                                                  display: flex;
+                                                  flex-direction: row;
                          }
-                         .btn-filtre  {
-                           display: flex;
-                           align-items: center;
-                           justify-items: flex-start;
-                           padding: 0 20px;
-                           /* text-align: center; */
-                           font-weight: 800;
-                           border: none;
-                           background-color: white;
-                           padding: 0px 31px 0px 0px;
-                           margin: 18px 8px 13px 30px;
-                           border: 2px solid #ccc9c9;
-                           border-radius: 0px 30px 30px 0px;
-                           height: 40px;
+                         .btn-filtre {
+                                                  display: flex;
+                                                  align-items: center;
+                                                  justify-items: flex-start;
+                                                  padding: 0 20px;
+                                                  /* text-align: center; */
+                                                  font-weight: 800;
+                                                  border: none;
+                                                  background-color: white;
+                                                  padding: 0px 31px 0px 0px;
+                                                  margin: 18px 8px 13px 30px;
+                                                  border: 2px solid #ccc9c9;
+                                                  border-radius: 0px 30px 30px
+                                                                           0px;
+                                                  height: 40px;
                          }
                          .i-info {
-                                                   
                                                   position: relative;
                                                   right: 22px;
                                                   bottom: 0px;
@@ -195,7 +193,6 @@
                                                   background-color: #bff0f7;
                                                   border-radius: 100%;
                                                   padding: 14px 14px 14px 14px;
-                                                  
                          }
                          .btn-filtre:hover .i-info {
                                                   display: flex;
@@ -234,11 +231,12 @@
                                                   display: flex;
                                                   flex-direction: column;
                                                   justify-content: center;
+                                                  padding: 0px 17px 0px 0px;
                          }
                          .cont-article .Article-list {
                                                   display: flex;
                                                   flex-direction: row;
-                                                  margin: 0px 0px 0px 30px;
+                                                  margin: 0px 0px 0px 10px;
                          }
 
                          #hebergement/* hébergement */ {
@@ -259,20 +257,27 @@
                                                   display: flex;
                                                   flex-wrap: wrap;
                                                   justify-content: center;
+                                                  padding-inline-start: 7px;
                          }
                          .list-heberg {
                                                   width: 33%;
                          }
                          .article {
-                           width: 88%;
-                           height: 200px;
-                           background-color: #ffffff;
-                           border: 5px solid #ffffff;
-                           border-radius: 15px;
-                           overflow: hidden;
-                           box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1 );
-                           margin-left: 10px;
-                           margin-bottom: 23px;
+                                                  width: 88%;
+                                                  height: 200px;
+                                                  background-color: #ffffff;
+                                                  border: 5px solid #ffffff;
+                                                  border-radius: 15px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                                                  margin-left: 10px;
+                                                  margin-bottom: 23px;
                          }
                          .article-heberg figure {
                                                   width: 260px;
@@ -290,24 +295,25 @@
                                                   color: #333;
                                                   text-decoration: none;
                          }
-                         .article-heberg:hover .heberg-photo  {
+                         .article-heberg:hover .heberg-photo {
                                                   /*6*/
                                                   width: 133%;
                                                   filter: grayscale(0);
                                                   height: 210px;
                          }
 
-                         .heberg-photo { width: 133%;
-                           height: 45%;
+                         .heberg-photo {
+                                                  width: 133%;
+                                                  height: 45%;
                                                   object-fit: cover;
-                                                  
+
                                                   position: relative;
                                                   bottom: 10px;
                          }
                          .article-heberg figcaption > h3 {
-                          font-size: 18px;
-                          font-weight: 700;
-                          margin: 0px 0 4px 0;
+                                                  font-size: 18px;
+                                                  font-weight: 700;
+                                                  margin: 0px 0 4px 0;
                          }
                          .article-heberg figcaption > p {
                                                   font-size: small;
@@ -336,38 +342,42 @@
                          .les-populaires > h2 {
                                                   font-weight: 800;
                                                   margin-left: 25px;
-                                                  font-size: 20px;
+                                                  font-size: 157%;
                          }
                          .les-populaires i {
                                                   float: right;
                          }
+                         .star-pop{
+                            position: relative;
+                            right: 30px;
+                         }
                          .les-populaires {
-                          /* liste annonce*/
-                          background-color: #f2f2f2;
-                          border-radius: 25px;
-                          padding: 0px 0px;
-                          width: 40%;
- }
- .article-populaire {
-  font-size: smaller;
-  width: 84%;
-  height: 135px;
-  background-color: #ffffff;
-  border: 6px solid #ffffff;
-  border-radius: 25px;
-  overflow: hidden;
-  box-shadow: 5px 5px 20px
-                           rgba(
-                                                    0,
-                                                    0,
-                                                    0,
-                                                    0.1
-                           );
-  margin-left: 8%;
-  margin-bottom: 20px;
-  align-content: center;
-}
-                         .article-populaire:hover .populaire-photo{
+                                                  /* liste annonce*/
+                                                  background-color: #f2f2f2;
+                                                  border-radius: 25px;
+                                                  padding: 0px 0px;
+                                                  width: 50%;
+                         }
+                         .article-populaire {
+                                                  font-size: smaller;
+                                                  width: 84%;
+                                                  height: 135px;
+                                                  background-color: #ffffff;
+                                                  border: 6px solid #ffffff;
+                                                  border-radius: 25px;
+                                                  overflow: hidden;
+                                                  box-shadow: 5px 5px 20px
+                                                                           rgba(
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0,
+                                                                                                    0.1
+                                                                           );
+                                                  margin-left: 8%;
+                                                  margin-bottom: 20px;
+                                                  align-content: center;
+                         }
+                         .article-populaire:hover .populaire-photo {
                                                   /*6*/
                                                   height: auto;
                                                   width: 130%;
@@ -379,12 +389,12 @@
                          .annonce-populaire {
                                                   display: flex;
                                                   flex-wrap: wrap;
-                                                  width:95%;
-                                                  padding: 0px 0px 0px 20px;
+                                                  width: 95%;
+                                                  padding-inline-start:1px;
                                                   list-style-type: none;
                          }
                          .titre-populaire {
-                                                  font-size: 20px;
+                                                  font-size: 20%;
                                                   font-weight: bolder;
                                                   margin-top: 27px;
                          }
@@ -393,13 +403,13 @@
                                                   float: right;
                          }
                          .populaire-photo {
-                          width: 50%;
-                          object-fit: cover;
-                          position: relative;
-                          right: 38px;
-                          bottom: 23px;
-                          min-height:160px ;
- }
+                                                  width: 60%;
+                                                  object-fit: cover;
+                                                  position: relative;
+                                                  right: 38px;
+                                                  bottom: 23px;
+                                                  min-height: 160px;
+                         }
                          .article-populaire figure {
                                                   display: flex;
                                                   flex-direction: row;
@@ -423,11 +433,11 @@
                                                   flex-wrap: nowrap;
                          }
                          .article-populaire figcaption h3 {
-                           font-weight: 800;
-                           font-size: 16px;
-                          
-                           width: 100%;
-                           height: 42px;
+                                                  font-weight: 800;
+                                                  font-size: 16px;
+
+                                                  width: 100%;
+                                                  height: 42px;
                          }
                          .article-populaire figcaption p {
                                                   margin-bottom: 33px;
@@ -440,36 +450,36 @@
                          .article-populaire figcaption .star {
                                                   display: flex;
                                                   position: absolute;
-                                                  top:84%;
+                                                  top: 84%;
                          }
                          #activites {
                                                   margin: 0px 0px 0px 0px;
                                                   width: 100%;
-                                                  height: auto;
+                                                 
                                                   color: black;
                          }
                          #activites h3 {
                                                   font-weight: 800;
                                                   padding-left: 65px;
                                                   font-size: 20px;
-                                                 
                          }
                          .list-activites {
-                          width: 100%;
+                                                  width: 100%;
                                                   list-style-type: none;
                                                   display: flex;
-                                                  height: 450px;
+                                                  height: 453px;
                                                   flex-flow: column wrap;
                                                   column-count: 4;
-                                                  align-content: space-between;
-                                                  padding-left:35px;
-                                                  width: 90%;
+                                                  align-content: space-around;
+                                                  padding-inline-start: 0px;
+
+                                                  
                          }
 
                          .big {
-                                                  width: 25%;
-                                                  height: 415px;
-                                                  margin: 1%;
+                                                  width: 21%;
+                                                  height:98%;
+                                                 
                                                   background-color: #ffffff;
                                                   border-radius: 15px;
                                                   overflow: hidden;
@@ -491,9 +501,9 @@
                          }
 
                          .medium {
-                                                  width: 25%;
-                                                  margin: 1%;
-                                                  height: 210px;
+                                                  width: 21%;
+                                                 
+                                                  height: 51%;
                                                   background-color: #ffffff;
                                                   border-radius: 15px;
                                                   overflow: hidden;
@@ -505,6 +515,7 @@
                                                                                                     0.1
                                                                            );
                          }
+
                          .medium .activity-photo {
                                                   height: 73%;
                          }
@@ -514,9 +525,9 @@
                                                   margin: 13px 0px 13px 5px;
                          }
                          .small {
-                                                  width: 25%;
-                                                  margin: 1%;
-                                                  height: 160px;
+                                                  width: 21%;
+                                                  
+                                                  height: 35%;
                                                   background-color: #ffffff;
                                                   border-radius: 15px;
                                                   overflow: hidden;
@@ -528,6 +539,12 @@
                                                                                                     0.1
                                                                            );
                          }
+                         .small2{
+                            margin-bottom: 3%;
+                         }
+                         .small1{
+                            margin-top: 3%;
+                         }
                          .small .activity-photo {
                                                   height: 70%;
                          }
@@ -536,12 +553,11 @@
                                                   font-weight: 800;
                                                   margin: 13px 0px 13px 5px;
                          }
-                         .list-activites a 
-                         {
-                            width: 100%;
-                            margin: 0%;
-                            color: #333;
-                            text-decoration: none;
+                         .list-activites a {
+                                                  width: 100%;
+                                                  margin: 0%;
+                                                  color: #333;
+                                                  text-decoration: none;
                          }
 
                          .list-activites figure {
@@ -550,35 +566,35 @@
                                                   margin: 0%;
                          }
 
-                         .activity-photo  {
+                         .activity-photo {
                                                   width: 100%;
                                                   height: 100%;
                                                   object-fit: cover;
                          }
-                         .big:hover .activity-photo  {
+                         .big:hover .activity-photo {
                                                   /*6*/
                                                   width: 110%;
                                                   filter: grayscale(0);
                                                   height: 170%;
-                                                   position: relative;
-                                                   bottom: 290px;
+                                                  position: relative;
+                                                  bottom: 290px;
                          }
-                         .medium:hover .activity-photo  {
-                           /*6*/
-                           width: 110%;
-                           filter: grayscale(0);
-                           height: 170%;
-                            position: relative;
-                            bottom: 100px;
-  }
-  .small:hover .activity-photo  {
-   /*6*/
-   width: 110%;
-   filter: grayscale(0);
-   height: 170%;
-    position: relative;
-    bottom: 70px;
-}
+                         .medium:hover .activity-photo {
+                                                  /*6*/
+                                                  width: 110%;
+                                                  filter: grayscale(0);
+                                                  height: 170%;
+                                                  position: relative;
+                                                  bottom: 100px;
+                         }
+                         .small:hover .activity-photo {
+                                                  /*6*/
+                                                  width: 110%;
+                                                  filter: grayscale(0);
+                                                  height: 170%;
+                                                  position: relative;
+                                                  bottom: 70px;
+                         }
                          footer {
                                                   background-color: #f2f2f2;
                                                   display: flex;
@@ -587,58 +603,53 @@
                                                   height: 200px;
                                                   padding-left: 35px;
                          }
-                         footer a{
-                            color: #333;
+                         footer a {
+                                                  color: #333;
                                                   text-decoration: none;
                          }
                          .about {
                                                   width: 30%;
-                                                  margin-top:30px;
+                                                  margin-top: 30px;
                          }
                          .about p {
                                                   font-weight: 800;
                                                   position: relative;
-                                                  
                          }
                          .accommodation {
                                                   width: 30%;
-                                                  margin-top:30px;
+                                                  margin-top: 30px;
                          }
                          .accommodation p {
                                                   font-weight: 800;
                                                   position: relative;
-                                                
                          }
                          .assistance {
                                                   width: 30%;
-                                                  margin-top:30px;
+                                                  margin-top: 30px;
                          }
                          .assistance p {
                                                   font-weight: 800;
                                                   position: relative;
-                                                  
                          }
                          .about ul {
                                                   list-style-type: none;
                                                   padding: 2px;
                          }
                          .about ul li {
-                            margin-top: 10px;
+                                                  margin-top: 10px;
                          }
                          .accommodation ul {
                                                   list-style-type: none;
                                                   padding: 2px;
                          }
-                         .accommodation ul li 
-                         {
-                            margin-top: 10px;
+                         .accommodation ul li {
+                                                  margin-top: 10px;
                          }
                          .assistance ul {
-                        list-style-type: none;
-                        padding: 2px;
+                                                  list-style-type: none;
+                                                  padding: 2px;
                          }
-                         .assistance ul li 
-                        { 
-                            margin-top: 10px;
-                        }
-                    }
+                         .assistance ul li {
+                                                  margin-top: 10px;
+                         }
+}

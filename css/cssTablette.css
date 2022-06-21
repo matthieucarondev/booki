@@ -272,9 +272,7 @@
                                                   font-size: small;
                                                   width: 80%;
                          }
-                         .cont-article {
-                                                  width: 90%;
-                         }
+                        
                          .cont-article .Article-list {
                                                   display: flex;
                                                   flex-direction: column-reverse;
@@ -623,7 +621,6 @@
                                                   padding-left: 15px;
                          }
                          footer {
-                                                  width: 90%;
                                                   background-color: #f2f2f2;
                                                   display: flex;
                                                   flex-flow: row wrap;
